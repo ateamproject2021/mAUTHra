@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-import sys
+#import sys
 
 #import banner head with "tagline here"
 #open up a log file
