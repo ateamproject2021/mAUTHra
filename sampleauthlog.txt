@@ -1,0 +1,1342 @@
+May 17 09:07:07 kali systemd-logind[382]: New seat seat0.
+May 17 09:07:07 kali systemd-logind[382]: Watching system buttons on /dev/input/event3 (Power Button)
+May 17 09:07:07 kali systemd-logind[382]: Watching system buttons on /dev/input/event4 (Sleep Button)
+May 17 09:07:07 kali systemd-logind[382]: Watching system buttons on /dev/input/event0 (AT Translated Set 2 keyboard)
+May 17 09:07:08 kali gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user Debian-gdm by (uid=0)
+May 17 09:07:08 kali systemd-logind[382]: New session c1 of user Debian-gdm.
+May 17 09:07:08 kali systemd: pam_unix(systemd-user:session): session opened for user Debian-gdm by (uid=0)
+May 17 09:07:14 kali polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.22 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+May 17 09:07:15 kali realmd[755]: Loaded settings from: /usr/lib/realmd/realmd-defaults.conf /usr/lib/realmd/realmd-distro.conf
+May 17 09:07:15 kali realmd[755]: holding daemon: startup
+May 17 09:07:15 kali realmd[755]: starting service
+May 17 09:07:15 kali realmd[755]: connected to bus
+May 17 09:07:15 kali realmd[755]: released daemon: startup
+May 17 09:07:15 kali realmd[755]: claimed name on bus: org.freedesktop.realmd
+May 17 09:07:20 kali gdm-password]: pam_unix(gdm-password:session): session opened for user root by (uid=0)
+May 17 09:07:20 kali systemd-logind[382]: New session 2 of user root.
+May 17 09:07:20 kali systemd: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+May 17 09:07:23 kali polkitd(authority=local): Registered Authentication Agent for unix-session:2 (system bus name :1.261 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+May 17 09:07:33 kali PackageKit: uid 0 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+May 17 09:07:33 kali PackageKit: uid 0 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+May 17 09:08:17 kali realmd[755]: quitting realmd service after timeout
+May 17 09:08:17 kali realmd[755]: stopping service
+May 17 09:08:28 kali PackageKit: uid 0 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+May 17 09:08:28 kali PackageKit: uid 0 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+May 17 09:08:40 kali groupadd[4387]: group added to /etc/group: name=vboxsf, GID=144
+May 17 09:08:40 kali groupadd[4387]: group added to /etc/gshadow: name=vboxsf
+May 17 09:08:40 kali groupadd[4387]: new group: name=vboxsf, GID=144
+May 17 09:09:01 kali CRON[5716]: pam_unix(cron:session): session opened for user root by (uid=0)
+May 17 09:09:01 kali CRON[5716]: pam_unix(cron:session): session closed for user root
+May 17 09:15:01 kali CRON[5812]: pam_unix(cron:session): session opened for user root by (uid=0)
+May 17 09:15:01 kali CRON[5812]: pam_unix(cron:session): session closed for user root
+May 17 09:17:01 kali CRON[5815]: pam_unix(cron:session): session opened for user root by (uid=0)
+May 17 09:17:01 kali CRON[5815]: pam_unix(cron:session): session closed for user root
+May 17 09:17:38 kali systemd-logind[387]: New seat seat0.
+May 17 09:17:38 kali systemd-logind[387]: Watching system buttons on /dev/input/event3 (Power Button)
+May 17 09:17:38 kali systemd-logind[387]: Watching system buttons on /dev/input/event4 (Sleep Button)
+May 17 09:17:38 kali systemd-logind[387]: Watching system buttons on /dev/input/event0 (AT Translated Set 2 keyboard)
+May 17 09:17:39 kali gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user Debian-gdm by (uid=0)
+May 17 09:17:39 kali systemd-logind[387]: New session c1 of user Debian-gdm.
+May 17 09:17:39 kali systemd: pam_unix(systemd-user:session): session opened for user Debian-gdm by (uid=0)
+May 17 09:17:47 kali polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.23 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+May 17 09:17:50 kali realmd[778]: Loaded settings from: /usr/lib/realmd/realmd-defaults.conf /usr/lib/realmd/realmd-distro.conf
+May 17 09:17:50 kali realmd[778]: holding daemon: startup
+May 17 09:17:50 kali realmd[778]: starting service
+May 17 09:17:50 kali realmd[778]: connected to bus
+May 17 09:17:50 kali realmd[778]: released daemon: startup
+May 17 09:17:50 kali realmd[778]: claimed name on bus: org.freedesktop.realmd
+May 17 09:18:51 kali realmd[778]: quitting realmd service after timeout
+May 17 09:18:51 kali realmd[778]: stopping service
+May 17 09:18:56 kali gdm-password]: pam_unix(gdm-password:session): session opened for user root by (uid=0)
+May 17 09:18:56 kali systemd-logind[387]: New session 2 of user root.
+May 17 09:18:56 kali systemd: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+May 17 09:18:59 kali polkitd(authority=local): Registered Authentication Agent for unix-session:2 (system bus name :1.293 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+May 17 09:19:05 kali PackageKit: uid 0 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+May 17 09:19:05 kali PackageKit: uid 0 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+May 17 09:25:11 kali CRON[2540]: pam_unix(cron:session): session opened for user root by (uid=0)
+May 17 09:25:19 kali CRON[2540]: pam_unix(cron:session): session closed for user root
+May 17 09:25:46 kali gdm-password]: gkr-pam: unlocked login keyring
+Jun 30 04:59:08 kali systemd-logind[434]: New seat seat0.
+Jun 30 04:59:08 kali systemd-logind[434]: Watching system buttons on /dev/input/event2 (Power Button)
+Jun 30 04:59:08 kali systemd-logind[434]: Watching system buttons on /dev/input/event4 (Sleep Button)
+Jun 30 04:59:08 kali systemd-logind[434]: Watching system buttons on /dev/input/event0 (AT Translated Set 2 keyboard)
+Jun 30 04:59:08 kali gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user Debian-gdm by (uid=0)
+Jun 30 04:59:08 kali systemd-logind[434]: New session c1 of user Debian-gdm.
+Jun 30 04:59:08 kali systemd: pam_unix(systemd-user:session): session opened for user Debian-gdm by (uid=0)
+Jun 30 04:59:11 kali polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.24 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Jun 30 04:59:11 kali realmd[953]: Loaded settings from: /usr/lib/realmd/realmd-defaults.conf /usr/lib/realmd/realmd-distro.conf
+Jun 30 04:59:11 kali realmd[953]: holding daemon: startup
+Jun 30 04:59:11 kali realmd[953]: starting service
+Jun 30 04:59:11 kali realmd[953]: connected to bus
+Jun 30 04:59:11 kali realmd[953]: released daemon: startup
+Jun 30 04:59:11 kali realmd[953]: claimed name on bus: org.freedesktop.realmd
+Jun 30 04:59:18 kali gdm-password]: pam_unix(gdm-password:session): session opened for user root by (uid=0)
+Jun 30 04:59:18 kali systemd-logind[434]: New session 2 of user root.
+Jun 30 04:59:18 kali systemd: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Jun 30 04:59:20 kali polkitd(authority=local): Registered Authentication Agent for unix-session:2 (system bus name :1.191 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Jun 30 04:59:24 kali PackageKit: uid 0 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+Jun 30 04:59:24 kali PackageKit: uid 0 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+Jun 30 05:00:12 kali realmd[953]: quitting realmd service after timeout
+Jun 30 05:00:12 kali realmd[953]: stopping service
+Jun 30 05:05:01 kali CRON[2336]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 30 05:05:01 kali CRON[2336]: pam_unix(cron:session): session closed for user root
+Jun 30 05:09:01 kali CRON[2340]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 30 05:09:01 kali CRON[2340]: pam_unix(cron:session): session closed for user root
+Jun 30 05:15:01 kali CRON[7756]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 30 05:15:01 kali CRON[7756]: pam_unix(cron:session): session closed for user root
+Jun 30 05:17:01 kali CRON[10143]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 30 05:17:02 kali CRON[10143]: pam_unix(cron:session): session closed for user root
+Jun 30 05:18:39 kali su: (to dradis) root on none
+Jun 30 05:18:39 kali su: pam_unix(su-l:session): session opened for user dradis by (uid=0)
+Jun 30 05:18:44 kali su: pam_unix(su-l:session): session closed for user dradis
+Jun 30 05:19:19 kali su: (to postgres) root on pts/2
+Jun 30 05:19:19 kali su: pam_unix(su:session): session opened for user postgres by (uid=0)
+Jun 30 05:19:19 kali su: pam_unix(su:session): session closed for user postgres
+Jun 30 05:23:33 kali systemd-logind[442]: New seat seat0.
+Jun 30 05:23:33 kali systemd-logind[442]: Watching system buttons on /dev/input/event1 (Power Button)
+Jun 30 05:23:33 kali systemd-logind[442]: Watching system buttons on /dev/input/event2 (Sleep Button)
+Jun 30 05:23:33 kali systemd-logind[442]: Watching system buttons on /dev/input/event0 (AT Translated Set 2 keyboard)
+Jun 30 05:23:33 kali systemd-logind[442]: Watching system buttons on /dev/input/event2 (Sleep Button)
+Jun 30 05:23:33 kali gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user Debian-gdm by (uid=0)
+Jun 30 05:23:33 kali systemd-logind[442]: New session c1 of user Debian-gdm.
+Jun 30 05:23:33 kali systemd: pam_unix(systemd-user:session): session opened for user Debian-gdm by (uid=0)
+Jun 30 05:23:36 kali polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.23 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Jun 30 05:23:36 kali realmd[822]: Loaded settings from: /usr/lib/realmd/realmd-defaults.conf /usr/lib/realmd/realmd-distro.conf
+Jun 30 05:23:36 kali realmd[822]: holding daemon: startup
+Jun 30 05:23:36 kali realmd[822]: starting service
+Jun 30 05:23:36 kali realmd[822]: connected to bus
+Jun 30 05:23:36 kali realmd[822]: released daemon: startup
+Jun 30 05:23:36 kali realmd[822]: claimed name on bus: org.freedesktop.realmd
+Jun 30 05:23:41 kali gdm-password]: pam_unix(gdm-password:session): session opened for user root by (uid=0)
+Jun 30 05:23:41 kali systemd-logind[442]: New session 2 of user root.
+Jun 30 05:23:41 kali systemd: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Jun 30 05:23:43 kali polkitd(authority=local): Registered Authentication Agent for unix-session:2 (system bus name :1.190 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Jun 30 05:23:47 kali PackageKit: uid 0 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+Jun 30 05:23:47 kali PackageKit: uid 0 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+Jun 30 05:23:56 kali sudo:     root : TTY=pts/0 ; PWD=/root ; USER=root ; COMMAND=/usr/sbin/shutdown now
+Jun 30 05:23:56 kali sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jun 30 05:27:35 kali systemd-logind[464]: New seat seat0.
+Jun 30 05:27:35 kali systemd-logind[464]: Watching system buttons on /dev/input/event1 (Power Button)
+Jun 30 05:27:35 kali systemd-logind[464]: Watching system buttons on /dev/input/event2 (Sleep Button)
+Jun 30 05:27:35 kali systemd-logind[464]: Watching system buttons on /dev/input/event0 (AT Translated Set 2 keyboard)
+Jun 30 05:27:35 kali gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user Debian-gdm by (uid=0)
+Jun 30 05:27:35 kali systemd-logind[464]: New session c1 of user Debian-gdm.
+Jun 30 05:27:35 kali systemd: pam_unix(systemd-user:session): session opened for user Debian-gdm by (uid=0)
+Jun 30 05:27:38 kali polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.23 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Jun 30 05:27:39 kali realmd[825]: Loaded settings from: /usr/lib/realmd/realmd-defaults.conf /usr/lib/realmd/realmd-distro.conf
+Jun 30 05:27:39 kali realmd[825]: holding daemon: startup
+Jun 30 05:27:39 kali realmd[825]: starting service
+Jun 30 05:27:39 kali realmd[825]: connected to bus
+Jun 30 05:27:39 kali realmd[825]: released daemon: startup
+Jun 30 05:27:39 kali realmd[825]: claimed name on bus: org.freedesktop.realmd
+Jun 30 05:27:43 kali gdm-password]: pam_unix(gdm-password:auth): check pass; user unknown
+Jun 30 05:27:43 kali gdm-password]: pam_unix(gdm-password:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/tty1 ruser= rhost= 
+Jun 30 05:27:50 kali gdm-password]: pam_unix(gdm-password:session): session opened for user root by (uid=0)
+Jun 30 05:27:50 kali systemd-logind[464]: New session 2 of user root.
+Jun 30 05:27:50 kali systemd: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Jun 30 05:27:52 kali polkitd(authority=local): Registered Authentication Agent for unix-session:2 (system bus name :1.196 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Jun 30 05:27:55 kali PackageKit: uid 0 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+Jun 30 05:27:55 kali PackageKit: uid 0 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+Jun 30 05:28:18 kali systemd-logind[458]: New seat seat0.
+Jun 30 05:28:18 kali systemd-logind[458]: Watching system buttons on /dev/input/event1 (Power Button)
+Jun 30 05:28:18 kali systemd-logind[458]: Watching system buttons on /dev/input/event2 (Sleep Button)
+Jun 30 05:28:18 kali systemd-logind[458]: Watching system buttons on /dev/input/event0 (AT Translated Set 2 keyboard)
+Jun 30 05:28:18 kali gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user Debian-gdm by (uid=0)
+Jun 30 05:28:18 kali systemd-logind[458]: New session c1 of user Debian-gdm.
+Jun 30 05:28:18 kali systemd: pam_unix(systemd-user:session): session opened for user Debian-gdm by (uid=0)
+Jun 30 05:28:20 kali polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.23 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Jun 30 05:28:21 kali realmd[825]: Loaded settings from: /usr/lib/realmd/realmd-defaults.conf /usr/lib/realmd/realmd-distro.conf
+Jun 30 05:28:21 kali realmd[825]: holding daemon: startup
+Jun 30 05:28:21 kali realmd[825]: starting service
+Jun 30 05:28:21 kali realmd[825]: connected to bus
+Jun 30 05:28:21 kali realmd[825]: released daemon: startup
+Jun 30 05:28:21 kali realmd[825]: claimed name on bus: org.freedesktop.realmd
+Jun 30 05:28:28 kali gdm-password]: pam_unix(gdm-password:session): session opened for user root by (uid=0)
+Jun 30 05:28:28 kali systemd-logind[458]: New session 2 of user root.
+Jun 30 05:28:28 kali systemd: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Jun 30 05:28:30 kali polkitd(authority=local): Registered Authentication Agent for unix-session:2 (system bus name :1.174 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Jun 30 05:28:33 kali PackageKit: uid 0 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+Jun 30 05:28:33 kali PackageKit: uid 0 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+Jun 30 05:29:22 kali realmd[825]: quitting realmd service after timeout
+Jun 30 05:29:22 kali realmd[825]: stopping service
+Jun 30 05:30:07 kali sudo:     root : TTY=pts/0 ; PWD=/root ; USER=root ; COMMAND=/usr/sbin/shutdown now
+Jun 30 05:30:07 kali sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jun 30 05:30:07 kali sudo: pam_unix(sudo:session): session closed for user root
+Jun 30 06:27:12 kali systemd-logind[460]: New seat seat0.
+Jun 30 06:27:12 kali systemd-logind[460]: Watching system buttons on /dev/input/event2 (Power Button)
+Jun 30 06:27:12 kali systemd-logind[460]: Watching system buttons on /dev/input/event3 (Sleep Button)
+Jun 30 06:27:12 kali systemd-logind[460]: Watching system buttons on /dev/input/event0 (AT Translated Set 2 keyboard)
+Jun 30 06:27:12 kali gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user Debian-gdm by (uid=0)
+Jun 30 06:27:12 kali systemd-logind[460]: New session c1 of user Debian-gdm.
+Jun 30 06:27:12 kali systemd: pam_unix(systemd-user:session): session opened for user Debian-gdm by (uid=0)
+Jun 30 06:27:15 kali polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.24 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Jun 30 06:27:16 kali realmd[894]: Loaded settings from: /usr/lib/realmd/realmd-defaults.conf /usr/lib/realmd/realmd-distro.conf
+Jun 30 06:27:16 kali realmd[894]: holding daemon: startup
+Jun 30 06:27:16 kali realmd[894]: starting service
+Jun 30 06:27:16 kali realmd[894]: connected to bus
+Jun 30 06:27:16 kali realmd[894]: released daemon: startup
+Jun 30 06:27:16 kali realmd[894]: claimed name on bus: org.freedesktop.realmd
+Jun 30 06:27:40 kali gdm-password]: pam_unix(gdm-password:session): session opened for user root by (uid=0)
+Jun 30 06:27:40 kali systemd-logind[460]: New session 2 of user root.
+Jun 30 06:27:40 kali systemd: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Jun 30 06:27:42 kali polkitd(authority=local): Registered Authentication Agent for unix-session:2 (system bus name :1.175 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Jun 30 06:27:46 kali PackageKit: uid 0 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+Jun 30 06:27:46 kali PackageKit: uid 0 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+Jun 30 06:28:17 kali realmd[894]: quitting realmd service after timeout
+Jun 30 06:28:17 kali realmd[894]: stopping service
+Jun 30 06:28:45 kali PackageKit: uid 0 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+Jun 30 06:28:45 kali PackageKit: uid 0 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+Jun 30 06:35:01 kali CRON[1871]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 30 06:35:01 kali CRON[1871]: pam_unix(cron:session): session closed for user root
+Jun 30 06:37:58 kali sudo:     root : TTY=pts/0 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/vi /etc/group
+Jun 30 06:37:58 kali sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jun 30 06:38:12 kali sudo: pam_unix(sudo:session): session closed for user root
+Jun 30 06:38:39 kali sudo:     root : TTY=pts/0 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/vi /etc/passwd
+Jun 30 06:38:39 kali sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jun 30 06:38:57 kali sudo: pam_unix(sudo:session): session closed for user root
+Jun 30 06:39:01 kali CRON[1887]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 30 06:39:01 kali CRON[1887]: pam_unix(cron:session): session closed for user root
+Jun 30 06:39:15 kali sudo:     root : TTY=pts/0 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/vi /etc/passwd
+Jun 30 06:39:15 kali sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jun 30 06:39:44 kali sudo: pam_unix(sudo:session): session closed for user root
+Jun 30 06:40:04 kali sudo:     root : TTY=pts/0 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/vi /etc/shadow
+Jun 30 06:40:04 kali sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jun 30 06:40:22 kali sudo: pam_unix(sudo:session): session closed for user root
+Jun 30 06:40:36 kali sudo:     root : TTY=pts/0 ; PWD=/root ; USER=root ; COMMAND=/usr/sbin/shutdown -r now
+Jun 30 06:40:36 kali sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jun 30 06:40:45 kali systemd-logind[461]: New seat seat0.
+Jun 30 06:40:45 kali systemd-logind[461]: Watching system buttons on /dev/input/event1 (Power Button)
+Jun 30 06:40:45 kali systemd-logind[461]: Watching system buttons on /dev/input/event2 (Sleep Button)
+Jun 30 06:40:45 kali systemd-logind[461]: Watching system buttons on /dev/input/event0 (AT Translated Set 2 keyboard)
+Jun 30 06:40:45 kali gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user Debian-gdm by (uid=0)
+Jun 30 06:40:45 kali systemd-logind[461]: New session c1 of user Debian-gdm.
+Jun 30 06:40:45 kali systemd: pam_unix(systemd-user:session): session opened for user Debian-gdm by (uid=0)
+Jun 30 06:40:48 kali polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.23 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Jun 30 06:40:48 kali realmd[826]: Loaded settings from: /usr/lib/realmd/realmd-defaults.conf /usr/lib/realmd/realmd-distro.conf
+Jun 30 06:40:48 kali realmd[826]: holding daemon: startup
+Jun 30 06:40:48 kali realmd[826]: starting service
+Jun 30 06:40:48 kali realmd[826]: connected to bus
+Jun 30 06:40:48 kali realmd[826]: released daemon: startup
+Jun 30 06:40:48 kali realmd[826]: claimed name on bus: org.freedesktop.realmd
+Jun 30 06:40:52 kali gdm-password]: pam_unix(gdm-password:session): session opened for user root by (uid=0)
+Jun 30 06:40:52 kali systemd-logind[461]: New session 2 of user root.
+Jun 30 06:40:52 kali systemd: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Jun 30 06:40:54 kali polkitd(authority=local): Registered Authentication Agent for unix-session:2 (system bus name :1.190 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Jun 30 06:40:57 kali PackageKit: uid 0 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+Jun 30 06:40:57 kali PackageKit: uid 0 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+Jun 30 06:41:05 kali sudo:     root : TTY=pts/0 ; PWD=/root ; USER=root ; COMMAND=/usr/sbin/shutdown now
+Jun 30 06:41:05 kali sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jun 30 06:41:46 kali systemd-logind[457]: New seat seat0.
+Jun 30 06:41:46 kali systemd-logind[457]: Watching system buttons on /dev/input/event1 (Power Button)
+Jun 30 06:41:46 kali systemd-logind[457]: Watching system buttons on /dev/input/event3 (Sleep Button)
+Jun 30 06:41:46 kali systemd-logind[457]: Watching system buttons on /dev/input/event0 (AT Translated Set 2 keyboard)
+Jun 30 06:41:46 kali gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user Debian-gdm by (uid=0)
+Jun 30 06:41:46 kali systemd-logind[457]: New session c1 of user Debian-gdm.
+Jun 30 06:41:46 kali systemd: pam_unix(systemd-user:session): session opened for user Debian-gdm by (uid=0)
+Jun 30 06:41:50 kali polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.23 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Jun 30 06:41:50 kali realmd[822]: Loaded settings from: /usr/lib/realmd/realmd-defaults.conf /usr/lib/realmd/realmd-distro.conf
+Jun 30 06:41:50 kali realmd[822]: holding daemon: startup
+Jun 30 06:41:50 kali realmd[822]: starting service
+Jun 30 06:41:50 kali realmd[822]: connected to bus
+Jun 30 06:41:50 kali realmd[822]: released daemon: startup
+Jun 30 06:41:50 kali realmd[822]: claimed name on bus: org.freedesktop.realmd
+Jun 30 06:42:09 kali gdm-password]: pam_unix(gdm-password:session): session opened for user root by (uid=0)
+Jun 30 06:42:09 kali systemd-logind[457]: New session 2 of user root.
+Jun 30 06:42:09 kali systemd: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Jun 30 06:42:11 kali polkitd(authority=local): Registered Authentication Agent for unix-session:2 (system bus name :1.190 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Jun 30 06:42:14 kali PackageKit: uid 0 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+Jun 30 06:42:14 kali PackageKit: uid 0 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+Jun 30 06:42:51 kali realmd[822]: quitting realmd service after timeout
+Jun 30 06:42:51 kali realmd[822]: stopping service
+Jun 30 06:45:01 kali CRON[1818]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 30 06:45:01 kali CRON[1818]: pam_unix(cron:session): session closed for user root
+Jun 30 06:46:54 kali sudo:     root : TTY=pts/0 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/rm -r /root/labs/010-linux-i
+Jun 30 06:46:54 kali sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jun 30 06:46:54 kali sudo: pam_unix(sudo:session): session closed for user root
+Jun 30 06:46:54 kali sudo:     root : TTY=pts/0 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/cp /root/source/010-linux-i//blast-from-the-past/blast-from-the-past /root/.bash_history
+Jun 30 06:46:54 kali sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jun 30 06:46:54 kali sudo: pam_unix(sudo:session): session closed for user root
+Jun 30 06:46:55 kali sudo:     root : TTY=pts/0 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/cp /root/source/010-linux-i//what-a-game--man/man.6.gz /usr/share/man/man6/man.6.gz
+Jun 30 06:46:55 kali sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jun 30 06:46:55 kali sudo: pam_unix(sudo:session): session closed for user root
+Jun 30 06:46:55 kali sudo:     root : TTY=pts/0 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/chmod 644 /usr/share/man/man6/man.6.gz
+Jun 30 06:46:55 kali sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jun 30 06:46:55 kali sudo: pam_unix(sudo:session): session closed for user root
+Jun 30 06:47:01 kali CRON[1917]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 30 06:47:01 kali CRON[1917]: pam_unix(cron:session): session closed for user root
+Jun 30 06:47:07 kali sudo:     root : TTY=pts/0 ; PWD=/root/labs ; USER=root ; COMMAND=/usr/bin/rm -r /root/labs/010-linux-i/
+Jun 30 06:47:07 kali sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jun 30 06:47:07 kali sudo: pam_unix(sudo:session): session closed for user root
+Jun 30 06:47:07 kali sudo:     root : TTY=pts/0 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/rm -r /root/labs/020-linux-ii
+Jun 30 06:47:07 kali sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jun 30 06:47:07 kali sudo: pam_unix(sudo:session): session closed for user root
+Jun 30 06:47:07 kali sudo:     root : TTY=pts/0 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/cp /root/source/020-linux-ii//where-am-i/where-am-i /usr/local/sbin/where-am-i
+Jun 30 06:47:07 kali sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jun 30 06:47:07 kali sudo: pam_unix(sudo:session): session closed for user root
+Jun 30 06:47:07 kali sudo:     root : TTY=pts/0 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/cp /root/source/020-linux-ii//where-am-i/where-am-i /usr/local/bin/where-am-i
+Jun 30 06:47:07 kali sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jun 30 06:47:07 kali sudo: pam_unix(sudo:session): session closed for user root
+Jun 30 06:47:07 kali sudo:     root : TTY=pts/0 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/chmod 555 /usr/local/sbin/where-am-i
+Jun 30 06:47:07 kali sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jun 30 06:47:07 kali sudo: pam_unix(sudo:session): session closed for user root
+Jun 30 06:47:08 kali sudo:     root : TTY=pts/0 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/chmod 555 /usr/local/bin/where-am-i
+Jun 30 06:47:08 kali sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jun 30 06:47:08 kali sudo: pam_unix(sudo:session): session closed for user root
+Jun 30 06:47:08 kali sudo:     root : TTY=pts/0 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/cp /root/source/020-linux-ii//where-am-i/secret1.txt /usr/local/sbin/secret.txt
+Jun 30 06:47:08 kali sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jun 30 06:47:08 kali sudo: pam_unix(sudo:session): session closed for user root
+Jun 30 06:47:08 kali sudo:     root : TTY=pts/0 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/chmod 444 /usr/local/sbin/secret.txt
+Jun 30 06:47:08 kali sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jun 30 06:47:08 kali sudo: pam_unix(sudo:session): session closed for user root
+Jun 30 06:47:08 kali sudo:     root : TTY=pts/0 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/cp /root/source/020-linux-ii//where-am-i/secret2.txt /usr/local/bin/secret.txt
+Jun 30 06:47:08 kali sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jun 30 06:47:08 kali sudo: pam_unix(sudo:session): session closed for user root
+Jun 30 06:47:08 kali sudo:     root : TTY=pts/0 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/chmod 444 /usr/local/bin/secret.txt
+Jun 30 06:47:08 kali sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jun 30 06:47:08 kali sudo: pam_unix(sudo:session): session closed for user root
+Jun 30 06:47:18 kali sudo:     root : TTY=pts/0 ; PWD=/root/labs ; USER=root ; COMMAND=/usr/bin/rm -r /root/labs/020-linux-ii/
+Jun 30 06:47:18 kali sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jun 30 06:47:18 kali sudo: pam_unix(sudo:session): session closed for user root
+Jun 30 06:47:18 kali sudo:     root : TTY=pts/0 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/rm -r /root/labs/030-linux-iii
+Jun 30 06:47:18 kali sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jun 30 06:47:18 kali sudo: pam_unix(sudo:session): session closed for user root
+Jun 30 06:47:18 kali sudo:     root : TTY=pts/0 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/cp /root/source/030-linux-iii//background-noise/buzz /usr/sbin/
+Jun 30 06:47:18 kali sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jun 30 06:47:18 kali sudo: pam_unix(sudo:session): session closed for user root
+Jun 30 06:47:18 kali sudo:     root : TTY=pts/0 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/chmod 755 /usr/sbin/buzz
+Jun 30 06:47:18 kali sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jun 30 06:47:18 kali sudo: pam_unix(sudo:session): session closed for user root
+Jun 30 06:49:00 kali sudo:     root : TTY=pts/0 ; PWD=/root/labs ; USER=root ; COMMAND=/usr/bin/rm -r /root/labs/000-overview-and-setup/
+Jun 30 06:49:00 kali sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jun 30 06:49:00 kali sudo: pam_unix(sudo:session): session closed for user root
+Jun 30 06:49:15 kali sudo:     root : TTY=pts/0 ; PWD=/root/labs ; USER=root ; COMMAND=/usr/bin/rm -r /root/labs/000-overview-and-setup/
+Jun 30 06:49:15 kali sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jun 30 06:49:15 kali sudo: pam_unix(sudo:session): session closed for user root
+Jun 30 06:52:12 kali systemd-logind[449]: New seat seat0.
+Jun 30 06:52:12 kali systemd-logind[449]: Watching system buttons on /dev/input/event1 (Power Button)
+Jun 30 06:52:12 kali systemd-logind[449]: Watching system buttons on /dev/input/event2 (Sleep Button)
+Jun 30 06:52:12 kali systemd-logind[449]: Watching system buttons on /dev/input/event0 (AT Translated Set 2 keyboard)
+Jun 30 06:52:12 kali gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user Debian-gdm by (uid=0)
+Jun 30 06:52:12 kali systemd-logind[449]: New session c1 of user Debian-gdm.
+Jun 30 06:52:12 kali systemd: pam_unix(systemd-user:session): session opened for user Debian-gdm by (uid=0)
+Jun 30 06:52:15 kali polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.23 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Jun 30 06:52:15 kali realmd[823]: Loaded settings from: /usr/lib/realmd/realmd-defaults.conf /usr/lib/realmd/realmd-distro.conf
+Jun 30 06:52:15 kali realmd[823]: holding daemon: startup
+Jun 30 06:52:15 kali realmd[823]: starting service
+Jun 30 06:52:15 kali realmd[823]: connected to bus
+Jun 30 06:52:15 kali realmd[823]: released daemon: startup
+Jun 30 06:52:15 kali realmd[823]: claimed name on bus: org.freedesktop.realmd
+Jun 30 06:53:00 kali systemd-logind[461]: New seat seat0.
+Jun 30 06:53:00 kali systemd-logind[461]: Watching system buttons on /dev/input/event1 (Power Button)
+Jun 30 06:53:00 kali systemd-logind[461]: Watching system buttons on /dev/input/event2 (Sleep Button)
+Jun 30 06:53:00 kali systemd-logind[461]: Watching system buttons on /dev/input/event0 (AT Translated Set 2 keyboard)
+Jun 30 06:53:00 kali gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user Debian-gdm by (uid=0)
+Jun 30 06:53:00 kali systemd-logind[461]: New session c1 of user Debian-gdm.
+Jun 30 06:53:00 kali systemd: pam_unix(systemd-user:session): session opened for user Debian-gdm by (uid=0)
+Jun 30 06:53:03 kali polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.23 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Jun 30 06:53:04 kali realmd[827]: Loaded settings from: /usr/lib/realmd/realmd-defaults.conf /usr/lib/realmd/realmd-distro.conf
+Jun 30 06:53:04 kali realmd[827]: holding daemon: startup
+Jun 30 06:53:04 kali realmd[827]: starting service
+Jun 30 06:53:04 kali realmd[827]: connected to bus
+Jun 30 06:53:04 kali realmd[827]: released daemon: startup
+Jun 30 06:53:04 kali realmd[827]: claimed name on bus: org.freedesktop.realmd
+Jun 30 06:53:09 kali gdm-password]: pam_unix(gdm-password:session): session opened for user root by (uid=0)
+Jun 30 06:53:09 kali systemd-logind[461]: New session 2 of user root.
+Jun 30 06:53:09 kali systemd: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Jun 30 06:53:11 kali polkitd(authority=local): Registered Authentication Agent for unix-session:2 (system bus name :1.190 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Jun 30 06:53:15 kali PackageKit: uid 0 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+Jun 30 06:53:15 kali PackageKit: uid 0 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+Jun 30 06:54:04 kali realmd[827]: quitting realmd service after timeout
+Jun 30 06:54:04 kali realmd[827]: stopping service
+Jun 30 06:55:01 kali CRON[1918]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jun 30 06:55:01 kali CRON[1918]: pam_unix(cron:session): session closed for user root
+Sep  5 21:01:35 kali systemd-logind[485]: New seat seat0.
+Sep  5 21:01:35 kali systemd-logind[485]: Watching system buttons on /dev/input/event1 (Power Button)
+Sep  5 21:01:35 kali systemd-logind[485]: Watching system buttons on /dev/input/event3 (Sleep Button)
+Sep  5 21:01:35 kali systemd-logind[485]: Watching system buttons on /dev/input/event0 (AT Translated Set 2 keyboard)
+Sep  5 21:01:37 kali gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user Debian-gdm by (uid=0)
+Sep  5 21:01:37 kali systemd-logind[485]: New session c1 of user Debian-gdm.
+Sep  5 21:01:37 kali systemd: pam_unix(systemd-user:session): session opened for user Debian-gdm by (uid=0)
+Sep  5 21:01:53 kali polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.24 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Sep  5 21:01:55 kali realmd[998]: Loaded settings from: /usr/lib/realmd/realmd-defaults.conf /usr/lib/realmd/realmd-distro.conf
+Sep  5 21:01:55 kali realmd[998]: holding daemon: startup
+Sep  5 21:01:55 kali realmd[998]: starting service
+Sep  5 21:01:55 kali realmd[998]: connected to bus
+Sep  5 21:01:55 kali realmd[998]: released daemon: startup
+Sep  5 21:01:55 kali realmd[998]: claimed name on bus: org.freedesktop.realmd
+Sep  5 21:02:56 kali realmd[998]: quitting realmd service after timeout
+Sep  5 21:02:56 kali realmd[998]: stopping service
+Sep  5 21:03:24 kali gdm-password]: pam_unix(gdm-password:session): session opened for user root by (uid=0)
+Sep  5 21:03:24 kali systemd-logind[485]: New session 2 of user root.
+Sep  5 21:03:24 kali systemd: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Sep  5 21:03:28 kali polkitd(authority=local): Registered Authentication Agent for unix-session:2 (system bus name :1.212 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Sep  5 21:03:35 kali PackageKit: uid 0 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+Sep  5 21:03:35 kali PackageKit: uid 0 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+Sep  5 21:04:35 kali PackageKit: uid 0 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+Sep  5 21:04:35 kali PackageKit: uid 0 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+Sep  5 21:04:44 kali sudo:     root : TTY=pts/0 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/apt update
+Sep  5 21:04:44 kali sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Sep  5 21:04:52 kali sudo: pam_unix(sudo:session): session closed for user root
+Sep  5 21:04:56 kali sudo:     root : TTY=pts/0 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/apt upgrade
+Sep  5 21:04:56 kali sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Sep  5 21:04:56 kali sudo: pam_unix(sudo:session): session closed for user root
+Sep  5 21:05:01 kali CRON[2193]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep  5 21:05:01 kali CRON[2193]: pam_unix(cron:session): session closed for user root
+Sep  5 21:06:38 kali sudo:     root : TTY=pts/0 ; PWD=/root ; USER=root ; COMMAND=/usr/sbin/shutdown -r now
+Sep  5 21:06:38 kali sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Sep  5 21:07:00 kali systemd-logind[497]: New seat seat0.
+Sep  5 21:07:00 kali systemd-logind[497]: Watching system buttons on /dev/input/event1 (Power Button)
+Sep  5 21:07:00 kali systemd-logind[497]: Watching system buttons on /dev/input/event2 (Sleep Button)
+Sep  5 21:07:00 kali systemd-logind[497]: Watching system buttons on /dev/input/event0 (AT Translated Set 2 keyboard)
+Sep  5 21:07:04 kali gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user Debian-gdm by (uid=0)
+Sep  5 21:07:04 kali systemd-logind[497]: New session c1 of user Debian-gdm.
+Sep  5 21:07:04 kali systemd: pam_unix(systemd-user:session): session opened for user Debian-gdm by (uid=0)
+Sep  5 21:07:16 kali polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.23 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Sep  5 21:07:19 kali realmd[854]: Loaded settings from: /usr/lib/realmd/realmd-defaults.conf /usr/lib/realmd/realmd-distro.conf
+Sep  5 21:07:19 kali realmd[854]: holding daemon: startup
+Sep  5 21:07:19 kali realmd[854]: starting service
+Sep  5 21:07:19 kali realmd[854]: connected to bus
+Sep  5 21:07:19 kali realmd[854]: released daemon: startup
+Sep  5 21:07:19 kali realmd[854]: claimed name on bus: org.freedesktop.realmd
+Sep  5 21:07:32 kali gdm-password]: pam_unix(gdm-password:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/tty1 ruser= rhost=  user=root
+Sep  5 21:07:38 kali gdm-password]: pam_unix(gdm-password:session): session opened for user root by (uid=0)
+Sep  5 21:07:38 kali systemd-logind[497]: New session 2 of user root.
+Sep  5 21:07:38 kali systemd: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Sep  5 21:07:42 kali polkitd(authority=local): Registered Authentication Agent for unix-session:2 (system bus name :1.208 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Sep  5 21:07:49 kali PackageKit: uid 0 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+Sep  5 21:07:49 kali PackageKit: uid 0 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+Sep  5 21:08:19 kali realmd[854]: quitting realmd service after timeout
+Sep  5 21:08:19 kali realmd[854]: stopping service
+Sep  5 21:09:01 kali CRON[1713]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep  5 21:09:01 kali CRON[1713]: pam_unix(cron:session): session closed for user root
+Sep  5 21:15:01 kali CRON[14577]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep  5 21:15:01 kali CRON[14577]: pam_unix(cron:session): session closed for user root
+Sep  5 21:17:01 kali CRON[17195]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep  5 21:17:01 kali CRON[17195]: pam_unix(cron:session): session closed for user root
+Sep  5 21:25:02 kali CRON[22823]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep  5 21:25:03 kali CRON[22823]: pam_unix(cron:session): session closed for user root
+Sep  5 21:35:01 kali CRON[23852]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep  5 21:35:01 kali CRON[23852]: pam_unix(cron:session): session closed for user root
+Sep  5 21:39:02 kali CRON[23963]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep  5 21:39:02 kali CRON[23963]: pam_unix(cron:session): session closed for user root
+Sep  5 21:45:01 kali CRON[23968]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep  5 21:45:01 kali CRON[23968]: pam_unix(cron:session): session closed for user root
+Sep  5 21:55:02 kali CRON[24919]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep  5 21:55:03 kali CRON[24919]: pam_unix(cron:session): session closed for user root
+Sep  5 22:05:01 kali CRON[26955]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep  5 22:05:01 kali CRON[26955]: pam_unix(cron:session): session closed for user root
+Sep  5 22:09:02 kali CRON[31118]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep  5 22:09:02 kali CRON[31118]: pam_unix(cron:session): session closed for user root
+Sep  5 22:15:01 kali CRON[31163]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep  5 22:15:01 kali CRON[31163]: pam_unix(cron:session): session closed for user root
+Sep  5 22:17:01 kali CRON[31215]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep  5 22:17:01 kali CRON[31215]: pam_unix(cron:session): session closed for user root
+Sep  5 22:25:01 kali CRON[900]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep  5 22:25:01 kali CRON[900]: pam_unix(cron:session): session closed for user root
+Sep  5 22:27:36 kali useradd[3492]: new user: name=_rpc, UID=134, GID=65534, home=/run/rpcbind, shell=/usr/sbin/nologin
+Sep  5 22:27:36 kali usermod[3500]: change user '_rpc' password
+Sep  5 22:27:36 kali chage[3507]: changed password expiry for _rpc
+Sep  5 22:29:10 kali runuser: pam_unix(runuser:session): session opened for user inetsim by (uid=0)
+Sep  5 22:29:10 kali runuser: pam_unix(runuser:session): session closed for user inetsim
+Sep  5 22:29:10 kali runuser: pam_unix(runuser:session): session opened for user inetsim by (uid=0)
+Sep  5 22:29:10 kali runuser: pam_unix(runuser:session): session closed for user inetsim
+Sep  5 22:29:10 kali runuser: pam_unix(runuser:session): session opened for user inetsim by (uid=0)
+Sep  5 22:29:10 kali runuser: pam_unix(runuser:session): session closed for user inetsim
+Sep  5 22:29:10 kali runuser: pam_unix(runuser:session): session opened for user inetsim by (uid=0)
+Sep  5 22:29:11 kali runuser: pam_unix(runuser:session): session closed for user inetsim
+Sep  5 22:29:11 kali runuser: pam_unix(runuser:session): session opened for user inetsim by (uid=0)
+Sep  5 22:29:11 kali runuser: pam_unix(runuser:session): session closed for user inetsim
+Sep  5 22:35:01 kali CRON[18585]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep  5 22:35:01 kali CRON[18585]: pam_unix(cron:session): session closed for user root
+Sep  5 22:35:32 kali useradd[19673]: new user: name=statd, UID=135, GID=65534, home=/var/lib/nfs, shell=/usr/sbin/nologin
+Sep  5 22:35:32 kali usermod[19681]: change user 'statd' password
+Sep  5 22:35:32 kali chage[19688]: changed password expiry for statd
+Sep  5 22:39:01 kali CRON[21668]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep  5 22:39:01 kali CRON[21668]: pam_unix(cron:session): session closed for user root
+Sep  5 22:45:01 kali CRON[21671]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep  5 22:45:01 kali CRON[21671]: pam_unix(cron:session): session closed for user root
+Sep  5 22:55:01 kali CRON[21677]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep  5 22:55:01 kali CRON[21677]: pam_unix(cron:session): session closed for user root
+Sep  5 23:05:01 kali CRON[21683]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep  5 23:05:01 kali CRON[21683]: pam_unix(cron:session): session closed for user root
+Sep  5 23:09:01 kali CRON[21688]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep  5 23:09:01 kali CRON[21688]: pam_unix(cron:session): session closed for user root
+Sep  5 23:15:01 kali CRON[21691]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep  5 23:15:01 kali CRON[21691]: pam_unix(cron:session): session closed for user root
+Sep  5 23:17:01 kali CRON[21695]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep  5 23:17:01 kali CRON[21695]: pam_unix(cron:session): session closed for user root
+Sep  5 23:25:01 kali CRON[21700]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep  5 23:25:01 kali CRON[21700]: pam_unix(cron:session): session closed for user root
+Sep  5 23:35:01 kali CRON[21706]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep  5 23:35:01 kali CRON[21706]: pam_unix(cron:session): session closed for user root
+Sep  5 23:39:01 kali CRON[21711]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep  5 23:39:01 kali CRON[21711]: pam_unix(cron:session): session closed for user root
+Sep  5 23:45:01 kali CRON[21714]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep  5 23:45:01 kali CRON[21714]: pam_unix(cron:session): session closed for user root
+Sep  5 23:55:01 kali CRON[21720]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep  5 23:55:01 kali CRON[21720]: pam_unix(cron:session): session closed for user root
+Sep  5 23:59:01 kali CRON[21725]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep  5 23:59:01 kali CRON[21725]: pam_unix(cron:session): session closed for user root
+Sep  6 00:05:01 kali CRON[21744]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep  6 00:05:01 kali CRON[21744]: pam_unix(cron:session): session closed for user root
+Sep  6 00:09:01 kali CRON[21749]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep  6 00:09:01 kali CRON[21749]: pam_unix(cron:session): session closed for user root
+Sep  6 00:15:01 kali CRON[21752]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep  6 00:15:01 kali CRON[21752]: pam_unix(cron:session): session closed for user root
+Sep  6 00:17:01 kali CRON[21755]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep  6 00:17:01 kali CRON[21755]: pam_unix(cron:session): session closed for user root
+Sep  6 00:25:01 kali CRON[21761]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep  6 00:25:01 kali CRON[21761]: pam_unix(cron:session): session closed for user root
+Sep  6 00:35:01 kali CRON[21770]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep  6 00:35:01 kali CRON[21770]: pam_unix(cron:session): session closed for user root
+Sep  6 00:39:01 kali CRON[21775]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep  6 00:39:01 kali CRON[21775]: pam_unix(cron:session): session closed for user root
+Sep  6 00:45:01 kali CRON[21778]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep  6 00:45:01 kali CRON[21778]: pam_unix(cron:session): session closed for user root
+Sep  6 00:55:01 kali CRON[21784]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep  6 00:55:01 kali CRON[21784]: pam_unix(cron:session): session closed for user root
+Sep  6 01:05:01 kali CRON[21790]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep  6 01:05:01 kali CRON[21790]: pam_unix(cron:session): session closed for user root
+Sep  6 01:09:01 kali CRON[21795]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep  6 01:09:01 kali CRON[21795]: pam_unix(cron:session): session closed for user root
+Sep  6 01:15:01 kali CRON[21798]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep  6 01:15:01 kali CRON[21798]: pam_unix(cron:session): session closed for user root
+Sep  6 01:17:01 kali CRON[21802]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep  6 01:17:01 kali CRON[21802]: pam_unix(cron:session): session closed for user root
+Sep  6 01:25:01 kali CRON[21807]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep  6 01:25:01 kali CRON[21807]: pam_unix(cron:session): session closed for user root
+Sep  6 01:35:01 kali CRON[21813]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep  6 01:35:01 kali CRON[21813]: pam_unix(cron:session): session closed for user root
+Sep  6 01:39:01 kali CRON[21818]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep  6 01:39:01 kali CRON[21818]: pam_unix(cron:session): session closed for user root
+Sep  6 01:45:01 kali CRON[21821]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep  6 01:45:01 kali CRON[21821]: pam_unix(cron:session): session closed for user root
+Sep  6 01:55:01 kali CRON[21827]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep  6 01:55:01 kali CRON[21827]: pam_unix(cron:session): session closed for user root
+Sep  6 02:05:01 kali CRON[21833]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep  6 02:05:01 kali CRON[21833]: pam_unix(cron:session): session closed for user root
+Sep  6 02:09:01 kali CRON[21838]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep  6 02:09:01 kali CRON[21838]: pam_unix(cron:session): session closed for user root
+Sep  6 02:15:01 kali CRON[21841]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep  6 02:15:01 kali CRON[21841]: pam_unix(cron:session): session closed for user root
+Sep  6 02:17:01 kali CRON[21844]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep  6 02:17:01 kali CRON[21844]: pam_unix(cron:session): session closed for user root
+Sep  6 02:25:01 kali CRON[21850]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep  6 02:25:01 kali CRON[21850]: pam_unix(cron:session): session closed for user root
+Sep  6 02:35:01 kali CRON[21856]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep  6 02:35:01 kali CRON[21856]: pam_unix(cron:session): session closed for user root
+Sep  6 02:39:01 kali CRON[21860]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep  6 02:39:01 kali CRON[21860]: pam_unix(cron:session): session closed for user root
+Sep  6 02:45:02 kali CRON[21864]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep  6 02:45:02 kali CRON[21864]: pam_unix(cron:session): session closed for user root
+Sep  6 02:55:01 kali CRON[21870]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep  6 02:55:01 kali CRON[21870]: pam_unix(cron:session): session closed for user root
+Sep  6 03:05:01 kali CRON[21875]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep  6 03:05:01 kali CRON[21875]: pam_unix(cron:session): session closed for user root
+Sep  6 03:09:01 kali CRON[21880]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep  6 03:09:01 kali CRON[21880]: pam_unix(cron:session): session closed for user root
+Sep  6 03:10:01 kali CRON[21882]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep  6 03:10:01 kali CRON[21882]: pam_unix(cron:session): session closed for user root
+Sep  6 03:15:01 kali CRON[21885]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep  6 03:15:01 kali CRON[21885]: pam_unix(cron:session): session closed for user root
+Sep  6 03:17:01 kali CRON[21889]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep  6 03:17:01 kali CRON[21889]: pam_unix(cron:session): session closed for user root
+Sep  6 03:25:01 kali CRON[21894]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep  6 03:25:01 kali CRON[21894]: pam_unix(cron:session): session closed for user root
+Sep  6 03:35:01 kali CRON[21900]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep  6 03:35:01 kali CRON[21900]: pam_unix(cron:session): session closed for user root
+Sep  6 03:39:01 kali CRON[21905]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep  6 03:39:01 kali CRON[21905]: pam_unix(cron:session): session closed for user root
+Sep  6 03:45:01 kali CRON[21908]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep  6 03:45:01 kali CRON[21908]: pam_unix(cron:session): session closed for user root
+Sep  6 03:55:01 kali CRON[21914]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep  6 03:55:01 kali CRON[21914]: pam_unix(cron:session): session closed for user root
+Sep  6 04:05:01 kali CRON[21920]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep  6 04:05:01 kali CRON[21920]: pam_unix(cron:session): session closed for user root
+Sep  6 04:09:01 kali CRON[21925]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep  6 04:09:01 kali CRON[21925]: pam_unix(cron:session): session closed for user root
+Sep  6 04:15:01 kali CRON[21928]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep  6 04:15:01 kali CRON[21928]: pam_unix(cron:session): session closed for user root
+Sep  6 04:17:01 kali CRON[21931]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep  6 04:17:01 kali CRON[21931]: pam_unix(cron:session): session closed for user root
+Sep  6 04:25:01 kali CRON[21937]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep  6 04:25:01 kali CRON[21937]: pam_unix(cron:session): session closed for user root
+Sep  6 04:35:01 kali CRON[21943]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep  6 04:35:01 kali CRON[21943]: pam_unix(cron:session): session closed for user root
+Sep  6 04:39:01 kali CRON[21948]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep  6 04:39:01 kali CRON[21948]: pam_unix(cron:session): session closed for user root
+Sep  6 04:45:01 kali CRON[21951]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep  6 04:45:01 kali CRON[21951]: pam_unix(cron:session): session closed for user root
+Sep  6 04:55:01 kali CRON[21957]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep  6 04:55:01 kali CRON[21957]: pam_unix(cron:session): session closed for user root
+Sep  6 05:05:01 kali CRON[21963]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep  6 05:05:01 kali CRON[21963]: pam_unix(cron:session): session closed for user root
+Sep  6 05:09:01 kali CRON[21967]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep  6 05:09:01 kali CRON[21967]: pam_unix(cron:session): session closed for user root
+Sep  6 05:15:01 kali CRON[21971]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep  6 05:15:01 kali CRON[21971]: pam_unix(cron:session): session closed for user root
+Sep  6 05:17:01 kali CRON[21974]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep  6 05:17:01 kali CRON[21974]: pam_unix(cron:session): session closed for user root
+Sep  6 05:25:01 kali CRON[21979]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep  6 05:25:01 kali CRON[21979]: pam_unix(cron:session): session closed for user root
+Sep  6 05:35:01 kali CRON[21985]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep  6 05:35:01 kali CRON[21985]: pam_unix(cron:session): session closed for user root
+Sep  6 05:39:01 kali CRON[21990]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep  6 05:39:01 kali CRON[21990]: pam_unix(cron:session): session closed for user root
+Sep  6 05:45:01 kali CRON[21993]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep  6 05:45:01 kali CRON[21993]: pam_unix(cron:session): session closed for user root
+Sep  6 05:55:01 kali CRON[21999]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep  6 05:55:01 kali CRON[21999]: pam_unix(cron:session): session closed for user root
+Sep  6 06:05:01 kali CRON[22005]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep  6 06:05:01 kali CRON[22005]: pam_unix(cron:session): session closed for user root
+Sep  6 06:08:50 kali PackageKit: uid 0 is trying to obtain org.freedesktop.packagekit.system-sources-refresh auth (only_trusted:0)
+Sep  6 06:08:50 kali PackageKit: uid 0 obtained auth for org.freedesktop.packagekit.system-sources-refresh
+Sep  6 06:09:01 kali CRON[22138]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep  6 06:09:01 kali CRON[22138]: pam_unix(cron:session): session closed for user root
+Sep  6 06:15:01 kali CRON[22172]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep  6 06:15:01 kali CRON[22172]: pam_unix(cron:session): session closed for user root
+Sep  6 06:17:01 kali CRON[22175]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep  6 06:17:01 kali CRON[22175]: pam_unix(cron:session): session closed for user root
+Sep  6 06:25:01 kali CRON[22181]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep  6 06:25:01 kali CRON[22182]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep  6 06:25:01 kali CRON[22182]: pam_unix(cron:session): session closed for user root
+Sep  6 06:25:27 kali CRON[22181]: pam_unix(cron:session): session closed for user root
+Sep  6 06:35:01 kali CRON[22290]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep  6 06:35:01 kali CRON[22290]: pam_unix(cron:session): session closed for user root
+Sep  6 06:39:01 kali CRON[22295]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep  6 06:39:01 kali CRON[22295]: pam_unix(cron:session): session closed for user root
+Sep  6 06:45:01 kali CRON[22333]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep  6 06:45:01 kali CRON[22333]: pam_unix(cron:session): session closed for user root
+Sep  6 06:55:01 kali CRON[22339]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep  6 06:55:01 kali CRON[22339]: pam_unix(cron:session): session closed for user root
+Sep  6 07:05:01 kali CRON[22345]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep  6 07:05:01 kali CRON[22345]: pam_unix(cron:session): session closed for user root
+Sep  6 07:09:01 kali CRON[22349]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep  6 07:09:01 kali CRON[22349]: pam_unix(cron:session): session closed for user root
+Sep  6 07:15:01 kali CRON[22353]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep  6 07:15:01 kali CRON[22353]: pam_unix(cron:session): session closed for user root
+Sep  6 07:17:01 kali CRON[22356]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep  6 07:17:01 kali CRON[22356]: pam_unix(cron:session): session closed for user root
+Sep  6 07:25:01 kali CRON[22362]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep  6 07:25:01 kali CRON[22362]: pam_unix(cron:session): session closed for user root
+Sep  6 07:35:01 kali CRON[22374]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep  6 07:35:01 kali CRON[22374]: pam_unix(cron:session): session closed for user root
+Sep  6 07:35:02 kali gdm-password]: pam_unix(gdm-password:auth): Couldn't open /etc/securetty: No such file or directory
+Sep  6 07:35:04 kali gdm-password]: pam_unix(gdm-password:auth): Couldn't open /etc/securetty: No such file or directory
+Sep  6 07:35:04 kali gdm-password]: gkr-pam: unlocked login keyring
+Sep  6 07:35:26 kali su: (to dradis) root on none
+Sep  6 07:35:26 kali su: pam_unix(su-l:session): session opened for user dradis by (uid=0)
+Sep  6 07:35:34 kali su: pam_unix(su-l:session): session closed for user dradis
+Sep  6 07:39:01 kali CRON[361]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep  6 07:39:01 kali CRON[361]: pam_unix(cron:session): session closed for user root
+Sep  6 07:39:02 kali su: (to postgres) root on none
+Sep  6 07:39:02 kali su: pam_unix(su:session): session opened for user postgres by (uid=0)
+Sep  6 07:39:02 kali su: pam_unix(su:session): session closed for user postgres
+Sep  6 07:40:38 kali sudo:     root : TTY=pts/0 ; PWD=/root ; USER=root ; COMMAND=/usr/sbin/shutdown -r now
+Sep  6 07:40:38 kali sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Sep  6 07:40:55 kali systemd-logind[532]: New seat seat0.
+Sep  6 07:40:55 kali systemd-logind[532]: Watching system buttons on /dev/input/event1 (Power Button)
+Sep  6 07:40:55 kali systemd-logind[532]: Watching system buttons on /dev/input/event2 (Sleep Button)
+Sep  6 07:40:55 kali systemd-logind[532]: Watching system buttons on /dev/input/event0 (AT Translated Set 2 keyboard)
+Sep  6 07:40:59 kali gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user Debian-gdm by (uid=0)
+Sep  6 07:40:59 kali systemd-logind[532]: New session c1 of user Debian-gdm.
+Sep  6 07:41:00 kali systemd: pam_unix(systemd-user:session): session opened for user Debian-gdm by (uid=0)
+Sep  6 07:41:14 kali polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.67 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Sep  6 07:41:17 kali realmd[890]: Loaded settings from: /usr/lib/realmd/realmd-defaults.conf /usr/lib/realmd/realmd-distro.conf
+Sep  6 07:41:17 kali realmd[890]: holding daemon: startup
+Sep  6 07:41:17 kali realmd[890]: starting service
+Sep  6 07:41:17 kali realmd[890]: connected to bus
+Sep  6 07:41:17 kali realmd[890]: GLib-GIO: _g_io_module_get_default: Found default implementation local (GLocalVfs) for ‘gio-vfs’
+Sep  6 07:41:17 kali realmd[890]: released daemon: startup
+Sep  6 07:41:17 kali realmd[890]: claimed name on bus: org.freedesktop.realmd
+Sep  6 07:41:23 kali gdm-password]: pam_unix(gdm-password:auth): Couldn't open /etc/securetty: No such file or directory
+Sep  6 07:41:23 kali gdm-password]: pam_unix(gdm-password:auth): Couldn't open /etc/securetty: No such file or directory
+Sep  6 07:41:24 kali gdm-password]: pam_unix(gdm-password:session): session opened for user root by (uid=0)
+Sep  6 07:41:24 kali systemd-logind[532]: New session 2 of user root.
+Sep  6 07:41:24 kali systemd: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Sep  6 07:41:29 kali polkitd(authority=local): Registered Authentication Agent for unix-session:2 (system bus name :1.207 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Sep  6 07:42:18 kali realmd[890]: quitting realmd service after timeout
+Sep  6 07:42:18 kali realmd[890]: stopping service
+Sep  6 07:45:01 kali CRON[10906]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep  6 07:45:01 kali CRON[10906]: pam_unix(cron:session): session closed for user root
+Sep  6 07:45:43 kali sudo:     root : TTY=pts/0 ; PWD=/root ; USER=root ; COMMAND=/usr/sbin/shutdown -r now
+Sep  6 07:45:43 kali sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Sep  6 07:46:09 kali systemd-logind[542]: New seat seat0.
+Sep  6 07:46:09 kali systemd-logind[542]: Watching system buttons on /dev/input/event1 (Power Button)
+Sep  6 07:46:09 kali systemd-logind[542]: Watching system buttons on /dev/input/event2 (Sleep Button)
+Sep  6 07:46:09 kali systemd-logind[542]: Watching system buttons on /dev/input/event0 (AT Translated Set 2 keyboard)
+Sep  6 07:46:13 kali gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user Debian-gdm by (uid=0)
+Sep  6 07:46:13 kali systemd-logind[542]: New session c1 of user Debian-gdm.
+Sep  6 07:46:13 kali systemd: pam_unix(systemd-user:session): session opened for user Debian-gdm by (uid=0)
+Sep  6 07:46:26 kali polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.67 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Sep  6 07:46:28 kali realmd[886]: Loaded settings from: /usr/lib/realmd/realmd-defaults.conf /usr/lib/realmd/realmd-distro.conf
+Sep  6 07:46:28 kali realmd[886]: holding daemon: startup
+Sep  6 07:46:28 kali realmd[886]: starting service
+Sep  6 07:46:28 kali realmd[886]: connected to bus
+Sep  6 07:46:28 kali realmd[886]: GLib-GIO: _g_io_module_get_default: Found default implementation local (GLocalVfs) for ‘gio-vfs’
+Sep  6 07:46:28 kali realmd[886]: released daemon: startup
+Sep  6 07:46:28 kali realmd[886]: claimed name on bus: org.freedesktop.realmd
+Sep  6 07:46:42 kali gdm-password]: pam_unix(gdm-password:auth): Couldn't open /etc/securetty: No such file or directory
+Sep  6 07:46:43 kali gdm-password]: pam_unix(gdm-password:auth): Couldn't open /etc/securetty: No such file or directory
+Sep  6 07:46:43 kali gdm-password]: pam_unix(gdm-password:session): session opened for user root by (uid=0)
+Sep  6 07:46:43 kali systemd-logind[542]: New session 2 of user root.
+Sep  6 07:46:43 kali systemd: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Sep  6 07:46:48 kali polkitd(authority=local): Registered Authentication Agent for unix-session:2 (system bus name :1.207 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Sep  6 07:47:29 kali realmd[886]: quitting realmd service after timeout
+Sep  6 07:47:29 kali realmd[886]: stopping service
+Sep  6 07:53:21 kali gdm-password]: pam_unix(gdm-password:auth): Couldn't open /etc/securetty: No such file or directory
+Sep  6 07:53:23 kali gdm-password]: pam_unix(gdm-password:auth): Couldn't open /etc/securetty: No such file or directory
+Sep  6 07:53:23 kali gdm-password]: gkr-pam: unlocked login keyring
+Sep  6 07:53:40 kali sudo:     root : TTY=pts/0 ; PWD=/root/labs ; USER=root ; COMMAND=/usr/sbin/shutdown now
+Sep  6 07:53:40 kali sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Sep  7 13:19:27 kali systemd-logind[537]: New seat seat0.
+Sep  7 13:19:27 kali systemd-logind[537]: Watching system buttons on /dev/input/event1 (Power Button)
+Sep  7 13:19:27 kali systemd-logind[537]: Watching system buttons on /dev/input/event2 (Sleep Button)
+Sep  7 13:19:27 kali systemd-logind[537]: Watching system buttons on /dev/input/event0 (AT Translated Set 2 keyboard)
+Sep  7 13:19:29 kali gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user Debian-gdm by (uid=0)
+Sep  7 13:19:29 kali systemd-logind[537]: New session c1 of user Debian-gdm.
+Sep  7 13:19:29 kali systemd: pam_unix(systemd-user:session): session opened for user Debian-gdm by (uid=0)
+Sep  7 13:19:43 kali polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.68 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Sep  7 13:19:45 kali realmd[891]: Loaded settings from: /usr/lib/realmd/realmd-defaults.conf /usr/lib/realmd/realmd-distro.conf
+Sep  7 13:19:45 kali realmd[891]: holding daemon: startup
+Sep  7 13:19:45 kali realmd[891]: starting service
+Sep  7 13:19:45 kali realmd[891]: connected to bus
+Sep  7 13:19:45 kali realmd[891]: GLib-GIO: _g_io_module_get_default: Found default implementation local (GLocalVfs) for ‘gio-vfs’
+Sep  7 13:19:45 kali realmd[891]: released daemon: startup
+Sep  7 13:19:45 kali realmd[891]: claimed name on bus: org.freedesktop.realmd
+Sep  7 13:19:58 kali gdm-password]: pam_unix(gdm-password:auth): Couldn't open /etc/securetty: No such file or directory
+Sep  7 13:20:01 kali gdm-password]: pam_unix(gdm-password:auth): conversation failed
+Sep  7 13:20:01 kali gdm-password]: pam_unix(gdm-password:auth): auth could not identify password for [toor]
+Sep  7 13:20:03 kali gdm-password]: pam_unix(gdm-password:auth): Couldn't open /etc/securetty: No such file or directory
+Sep  7 13:20:04 kali gdm-password]: pam_unix(gdm-password:auth): Couldn't open /etc/securetty: No such file or directory
+Sep  7 13:20:04 kali gdm-password]: pam_unix(gdm-password:session): session opened for user root by (uid=0)
+Sep  7 13:20:04 kali systemd-logind[537]: New session 2 of user root.
+Sep  7 13:20:04 kali systemd: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Sep  7 13:20:08 kali polkitd(authority=local): Registered Authentication Agent for unix-session:2 (system bus name :1.196 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Sep  7 13:20:41 kali sudo:     root : TTY=pts/0 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/rm -r /root/labs/000-setup/
+Sep  7 13:20:41 kali sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Sep  7 13:20:41 kali sudo: pam_unix(sudo:session): session closed for user root
+Sep  7 13:20:42 kali sudo:     root : TTY=pts/0 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/rm -r /root/labs/010-core
+Sep  7 13:20:42 kali sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Sep  7 13:20:42 kali sudo: pam_unix(sudo:session): session closed for user root
+Sep  7 13:20:43 kali sudo:     root : TTY=pts/0 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/cp /root/source/010-core//what-a-game--man/man.1.gz /usr/share/man/man1/man.1.gz
+Sep  7 13:20:43 kali sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Sep  7 13:20:43 kali sudo: pam_unix(sudo:session): session closed for user root
+Sep  7 13:20:43 kali sudo:     root : TTY=pts/0 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/chmod 644 /usr/share/man/man1/man.1.gz
+Sep  7 13:20:43 kali sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Sep  7 13:20:43 kali sudo: pam_unix(sudo:session): session closed for user root
+Sep  7 13:20:43 kali sudo:     root : TTY=pts/0 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/cp /root/source/010-core//what-a-game--man-2/man.6.gz /usr/share/man/man6/man.6.gz
+Sep  7 13:20:43 kali sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Sep  7 13:20:43 kali sudo: pam_unix(sudo:session): session closed for user root
+Sep  7 13:20:43 kali sudo:     root : TTY=pts/0 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/chmod 644 /usr/share/man/man6/man.6.gz
+Sep  7 13:20:43 kali sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Sep  7 13:20:43 kali sudo: pam_unix(sudo:session): session closed for user root
+Sep  7 13:20:43 kali sudo:     root : TTY=pts/0 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/mandb
+Sep  7 13:20:43 kali sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Sep  7 13:20:46 kali sudo: pam_unix(sudo:session): session closed for user root
+Sep  7 13:20:46 kali sudo:     root : TTY=pts/0 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/rm -r /root/labs/020-search
+Sep  7 13:20:46 kali sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Sep  7 13:20:46 kali sudo: pam_unix(sudo:session): session closed for user root
+Sep  7 13:20:46 kali realmd[891]: quitting realmd service after timeout
+Sep  7 13:20:46 kali realmd[891]: stopping service
+Sep  7 13:20:46 kali sudo:     root : TTY=pts/0 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/cp /root/source/020-search//blast-from-the-past/blast-from-the-past /root/.bash_history
+Sep  7 13:20:46 kali sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Sep  7 13:20:46 kali sudo: pam_unix(sudo:session): session closed for user root
+Sep  7 13:20:46 kali sudo:     root : TTY=pts/0 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/cp /root/source/020-search//where-am-i/where-am-i /usr/local/sbin/where-am-i
+Sep  7 13:20:46 kali sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Sep  7 13:20:46 kali sudo: pam_unix(sudo:session): session closed for user root
+Sep  7 13:20:46 kali sudo:     root : TTY=pts/0 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/cp /root/source/020-search//where-am-i/where-am-i /usr/local/bin/where-am-i
+Sep  7 13:20:46 kali sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Sep  7 13:20:46 kali sudo: pam_unix(sudo:session): session closed for user root
+Sep  7 13:20:46 kali sudo:     root : TTY=pts/0 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/chmod 111 /usr/local/sbin/where-am-i
+Sep  7 13:20:46 kali sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Sep  7 13:20:46 kali sudo: pam_unix(sudo:session): session closed for user root
+Sep  7 13:20:46 kali sudo:     root : TTY=pts/0 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/chmod 111 /usr/local/bin/where-am-i
+Sep  7 13:20:46 kali sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Sep  7 13:20:46 kali sudo: pam_unix(sudo:session): session closed for user root
+Sep  7 13:20:46 kali sudo:     root : TTY=pts/0 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/cp /root/source/020-search//where-am-i/secret1.txt /usr/local/sbin/secret.txt
+Sep  7 13:20:46 kali sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Sep  7 13:20:46 kali sudo: pam_unix(sudo:session): session closed for user root
+Sep  7 13:20:46 kali sudo:     root : TTY=pts/0 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/chmod 444 /usr/local/sbin/secret.txt
+Sep  7 13:20:46 kali sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Sep  7 13:20:46 kali sudo: pam_unix(sudo:session): session closed for user root
+Sep  7 13:20:46 kali sudo:     root : TTY=pts/0 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/cp /root/source/020-search//where-am-i/secret2.txt /usr/local/bin/secret.txt
+Sep  7 13:20:46 kali sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Sep  7 13:20:46 kali sudo: pam_unix(sudo:session): session closed for user root
+Sep  7 13:20:46 kali sudo:     root : TTY=pts/0 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/chmod 444 /usr/local/bin/secret.txt
+Sep  7 13:20:46 kali sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Sep  7 13:20:46 kali sudo: pam_unix(sudo:session): session closed for user root
+Sep  7 13:20:47 kali sudo:     root : TTY=pts/0 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/rm -r /root/labs/030-filters
+Sep  7 13:20:47 kali sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Sep  7 13:20:47 kali sudo: pam_unix(sudo:session): session closed for user root
+Sep  7 13:20:47 kali sudo:     root : TTY=pts/0 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/rm -r /root/labs/040-tools
+Sep  7 13:20:47 kali sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Sep  7 13:20:47 kali sudo: pam_unix(sudo:session): session closed for user root
+Sep  7 13:20:47 kali sudo:     root : TTY=pts/0 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/rm -r /root/labs/050-users
+Sep  7 13:20:47 kali sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Sep  7 13:20:47 kali sudo: pam_unix(sudo:session): session closed for user root
+Sep  7 13:20:47 kali sudo:     root : TTY=pts/0 ; PWD=/root ; USER=root ; COMMAND=/usr/sbin/usermod -a -G sudo agent13
+Sep  7 13:20:47 kali sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Sep  7 13:20:48 kali usermod[1699]: add 'agent13' to group 'sudo'
+Sep  7 13:20:48 kali usermod[1699]: add 'agent13' to shadow group 'sudo'
+Sep  7 13:20:48 kali sudo: pam_unix(sudo:session): session closed for user root
+Sep  7 13:20:48 kali sudo:     root : TTY=pts/0 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/rm -r /root/labs/060-permissions
+Sep  7 13:20:48 kali sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Sep  7 13:20:48 kali sudo: pam_unix(sudo:session): session closed for user root
+Sep  7 13:20:48 kali sudo:     root : TTY=pts/0 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/rm -r /root/labs/070-environment
+Sep  7 13:20:48 kali sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Sep  7 13:20:48 kali sudo: pam_unix(sudo:session): session closed for user root
+Sep  7 13:20:48 kali sudo:     root : TTY=pts/0 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/cp /root/source/070-environment//background-noise/buzz /usr/sbin/
+Sep  7 13:20:48 kali sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Sep  7 13:20:48 kali sudo: pam_unix(sudo:session): session closed for user root
+Sep  7 13:20:48 kali sudo:     root : TTY=pts/0 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/chmod 755 /usr/sbin/buzz
+Sep  7 13:20:48 kali sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Sep  7 13:20:48 kali sudo: pam_unix(sudo:session): session closed for user root
+Sep  7 13:25:01 kali CRON[1972]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep  7 13:25:01 kali CRON[1972]: pam_unix(cron:session): session closed for user root
+Sep  7 13:28:31 kali sudo:     root : TTY=pts/0 ; PWD=/root ; USER=root ; COMMAND=/usr/sbin/shutdown now
+Sep  7 13:28:31 kali sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Sep  7 18:57:50 kali systemd-logind[535]: New seat seat0.
+Sep  7 18:57:50 kali systemd-logind[535]: Watching system buttons on /dev/input/event1 (Power Button)
+Sep  7 18:57:50 kali systemd-logind[535]: Watching system buttons on /dev/input/event2 (Sleep Button)
+Sep  7 18:57:50 kali systemd-logind[535]: Watching system buttons on /dev/input/event0 (AT Translated Set 2 keyboard)
+Sep  7 18:57:52 kali gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user Debian-gdm by (uid=0)
+Sep  7 18:57:52 kali systemd-logind[535]: New session c1 of user Debian-gdm.
+Sep  7 18:57:52 kali systemd: pam_unix(systemd-user:session): session opened for user Debian-gdm by (uid=0)
+Sep  7 18:58:04 kali polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.67 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Sep  7 18:58:07 kali realmd[887]: Loaded settings from: /usr/lib/realmd/realmd-defaults.conf /usr/lib/realmd/realmd-distro.conf
+Sep  7 18:58:07 kali realmd[887]: holding daemon: startup
+Sep  7 18:58:07 kali realmd[887]: starting service
+Sep  7 18:58:07 kali realmd[887]: connected to bus
+Sep  7 18:58:07 kali realmd[887]: GLib-GIO: _g_io_module_get_default: Found default implementation local (GLocalVfs) for ‘gio-vfs’
+Sep  7 18:58:07 kali realmd[887]: released daemon: startup
+Sep  7 18:58:07 kali realmd[887]: claimed name on bus: org.freedesktop.realmd
+Sep  7 18:58:12 kali gdm-password]: pam_unix(gdm-password:auth): Couldn't open /etc/securetty: No such file or directory
+Sep  7 18:58:13 kali gdm-password]: pam_unix(gdm-password:auth): Couldn't open /etc/securetty: No such file or directory
+Sep  7 18:58:13 kali gdm-password]: pam_unix(gdm-password:session): session opened for user root by (uid=0)
+Sep  7 18:58:13 kali systemd-logind[535]: New session 2 of user root.
+Sep  7 18:58:13 kali systemd: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Sep  7 18:58:18 kali polkitd(authority=local): Registered Authentication Agent for unix-session:2 (system bus name :1.207 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Sep  7 18:59:08 kali realmd[887]: quitting realmd service after timeout
+Sep  7 18:59:08 kali realmd[887]: stopping service
+Sep  7 18:59:15 kali sudo:     root : TTY=pts/0 ; PWD=/root ; USER=root ; COMMAND=/usr/sbin/shutdown now
+Sep  7 18:59:15 kali sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Sep  7 19:00:08 kali systemd-logind[539]: New seat seat0.
+Sep  7 19:00:08 kali systemd-logind[539]: Watching system buttons on /dev/input/event1 (Power Button)
+Sep  7 19:00:08 kali systemd-logind[539]: Watching system buttons on /dev/input/event2 (Sleep Button)
+Sep  7 19:00:08 kali systemd-logind[539]: Watching system buttons on /dev/input/event0 (AT Translated Set 2 keyboard)
+Sep  7 19:00:10 kali gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user Debian-gdm by (uid=0)
+Sep  7 19:00:10 kali systemd-logind[539]: New session c1 of user Debian-gdm.
+Sep  7 19:00:10 kali systemd: pam_unix(systemd-user:session): session opened for user Debian-gdm by (uid=0)
+Sep  7 19:00:30 kali polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.68 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Sep  7 19:00:32 kali realmd[975]: Loaded settings from: /usr/lib/realmd/realmd-defaults.conf /usr/lib/realmd/realmd-distro.conf
+Sep  7 19:00:32 kali realmd[975]: holding daemon: startup
+Sep  7 19:00:32 kali realmd[975]: starting service
+Sep  7 19:00:32 kali realmd[975]: connected to bus
+Sep  7 19:00:32 kali realmd[975]: GLib-GIO: _g_io_module_get_default: Found default implementation local (GLocalVfs) for ‘gio-vfs’
+Sep  7 19:00:32 kali realmd[975]: released daemon: startup
+Sep  7 19:00:32 kali realmd[975]: claimed name on bus: org.freedesktop.realmd
+Sep  7 19:00:39 kali gdm-password]: pam_unix(gdm-password:auth): Couldn't open /etc/securetty: No such file or directory
+Sep  7 19:00:40 kali gdm-password]: pam_unix(gdm-password:auth): Couldn't open /etc/securetty: No such file or directory
+Sep  7 19:00:40 kali gdm-password]: pam_unix(gdm-password:session): session opened for user root by (uid=0)
+Sep  7 19:00:40 kali systemd-logind[539]: New session 2 of user root.
+Sep  7 19:00:40 kali systemd: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Sep  7 19:00:44 kali polkitd(authority=local): Registered Authentication Agent for unix-session:2 (system bus name :1.209 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Sep  7 19:01:33 kali realmd[975]: quitting realmd service after timeout
+Sep  7 19:01:33 kali realmd[975]: stopping service
+Sep  7 19:05:01 kali CRON[1488]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep  7 19:05:01 kali CRON[1488]: pam_unix(cron:session): session closed for user root
+Sep  7 19:09:01 kali CRON[1493]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep  7 19:09:01 kali CRON[1493]: pam_unix(cron:session): session closed for user root
+Sep  7 19:15:01 kali CRON[1497]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep  7 19:15:01 kali CRON[1497]: pam_unix(cron:session): session closed for user root
+Sep  7 19:17:01 kali CRON[1504]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep  7 19:17:01 kali CRON[1504]: pam_unix(cron:session): session closed for user root
+Sep  7 19:22:41 kali gdm-password]: pam_unix(gdm-password:auth): Couldn't open /etc/securetty: No such file or directory
+Sep  7 19:22:44 kali gdm-password]: pam_unix(gdm-password:auth): Couldn't open /etc/securetty: No such file or directory
+Sep  7 19:22:44 kali gdm-password]: gkr-pam: unlocked login keyring
+Sep  7 19:22:54 kali sudo:     root : TTY=pts/0 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/rm -r /root/labs/000-setup/
+Sep  7 19:22:54 kali sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Sep  7 19:22:54 kali sudo: pam_unix(sudo:session): session closed for user root
+Sep  7 19:22:54 kali sudo:     root : TTY=pts/0 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/rm -r /root/labs/010-core
+Sep  7 19:22:54 kali sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Sep  7 19:22:54 kali sudo: pam_unix(sudo:session): session closed for user root
+Sep  7 19:22:55 kali sudo:     root : TTY=pts/0 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/cp /root/source/010-core//what-a-game--man/man.1.gz /usr/share/man/man1/man.1.gz
+Sep  7 19:22:55 kali sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Sep  7 19:22:55 kali sudo: pam_unix(sudo:session): session closed for user root
+Sep  7 19:22:55 kali sudo:     root : TTY=pts/0 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/chmod 644 /usr/share/man/man1/man.1.gz
+Sep  7 19:22:55 kali sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Sep  7 19:22:55 kali sudo: pam_unix(sudo:session): session closed for user root
+Sep  7 19:22:55 kali sudo:     root : TTY=pts/0 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/cp /root/source/010-core//what-a-game--man-2/man.6.gz /usr/share/man/man6/man.6.gz
+Sep  7 19:22:55 kali sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Sep  7 19:22:55 kali sudo: pam_unix(sudo:session): session closed for user root
+Sep  7 19:22:55 kali sudo:     root : TTY=pts/0 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/chmod 644 /usr/share/man/man6/man.6.gz
+Sep  7 19:22:55 kali sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Sep  7 19:22:55 kali sudo: pam_unix(sudo:session): session closed for user root
+Sep  7 19:22:55 kali sudo:     root : TTY=pts/0 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/mandb
+Sep  7 19:22:55 kali sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Sep  7 19:22:56 kali sudo: pam_unix(sudo:session): session closed for user root
+Sep  7 19:22:56 kali sudo:     root : TTY=pts/0 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/rm -r /root/labs/020-search
+Sep  7 19:22:56 kali sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Sep  7 19:22:56 kali sudo: pam_unix(sudo:session): session closed for user root
+Sep  7 19:22:56 kali sudo:     root : TTY=pts/0 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/cp /root/source/020-search//blast-from-the-past/blast-from-the-past /root/.bash_history
+Sep  7 19:22:56 kali sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Sep  7 19:22:56 kali sudo: pam_unix(sudo:session): session closed for user root
+Sep  7 19:22:57 kali sudo:     root : TTY=pts/0 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/cp /root/source/020-search//where-am-i/where-am-i /usr/local/sbin/where-am-i
+Sep  7 19:22:57 kali sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Sep  7 19:22:57 kali sudo: pam_unix(sudo:session): session closed for user root
+Sep  7 19:22:57 kali sudo:     root : TTY=pts/0 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/cp /root/source/020-search//where-am-i/where-am-i /usr/local/bin/where-am-i
+Sep  7 19:22:57 kali sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Sep  7 19:22:57 kali sudo: pam_unix(sudo:session): session closed for user root
+Sep  7 19:22:57 kali sudo:     root : TTY=pts/0 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/chmod 111 /usr/local/sbin/where-am-i
+Sep  7 19:22:57 kali sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Sep  7 19:22:57 kali sudo: pam_unix(sudo:session): session closed for user root
+Sep  7 19:22:57 kali sudo:     root : TTY=pts/0 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/chmod 111 /usr/local/bin/where-am-i
+Sep  7 19:22:57 kali sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Sep  7 19:22:57 kali sudo: pam_unix(sudo:session): session closed for user root
+Sep  7 19:22:57 kali sudo:     root : TTY=pts/0 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/cp /root/source/020-search//where-am-i/secret1.txt /usr/local/sbin/secret.txt
+Sep  7 19:22:57 kali sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Sep  7 19:22:57 kali sudo: pam_unix(sudo:session): session closed for user root
+Sep  7 19:22:57 kali sudo:     root : TTY=pts/0 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/chmod 444 /usr/local/sbin/secret.txt
+Sep  7 19:22:57 kali sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Sep  7 19:22:57 kali sudo: pam_unix(sudo:session): session closed for user root
+Sep  7 19:22:57 kali sudo:     root : TTY=pts/0 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/cp /root/source/020-search//where-am-i/secret2.txt /usr/local/bin/secret.txt
+Sep  7 19:22:57 kali sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Sep  7 19:22:57 kali sudo: pam_unix(sudo:session): session closed for user root
+Sep  7 19:22:57 kali sudo:     root : TTY=pts/0 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/chmod 444 /usr/local/bin/secret.txt
+Sep  7 19:22:57 kali sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Sep  7 19:22:57 kali sudo: pam_unix(sudo:session): session closed for user root
+Sep  7 19:22:57 kali sudo:     root : TTY=pts/0 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/rm -r /root/labs/030-filters
+Sep  7 19:22:57 kali sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Sep  7 19:22:57 kali sudo: pam_unix(sudo:session): session closed for user root
+Sep  7 19:22:57 kali sudo:     root : TTY=pts/0 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/rm -r /root/labs/040-tools
+Sep  7 19:22:57 kali sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Sep  7 19:22:57 kali sudo: pam_unix(sudo:session): session closed for user root
+Sep  7 19:22:58 kali sudo:     root : TTY=pts/0 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/rm -r /root/labs/050-users
+Sep  7 19:22:58 kali sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Sep  7 19:22:58 kali sudo: pam_unix(sudo:session): session closed for user root
+Sep  7 19:22:58 kali sudo:     root : TTY=pts/0 ; PWD=/root ; USER=root ; COMMAND=/usr/sbin/usermod -a -G sudo agent13
+Sep  7 19:22:58 kali sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Sep  7 19:22:58 kali sudo: pam_unix(sudo:session): session closed for user root
+Sep  7 19:22:58 kali sudo:     root : TTY=pts/0 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/rm -r /root/labs/060-permissions
+Sep  7 19:22:58 kali sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Sep  7 19:22:58 kali sudo: pam_unix(sudo:session): session closed for user root
+Sep  7 19:22:58 kali sudo:     root : TTY=pts/0 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/rm -r /root/labs/070-environment
+Sep  7 19:22:58 kali sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Sep  7 19:22:58 kali sudo: pam_unix(sudo:session): session closed for user root
+Sep  7 19:22:58 kali sudo:     root : TTY=pts/0 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/cp /root/source/070-environment//background-noise/buzz /usr/sbin/
+Sep  7 19:22:58 kali sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Sep  7 19:22:58 kali sudo: pam_unix(sudo:session): session closed for user root
+Sep  7 19:22:58 kali sudo:     root : TTY=pts/0 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/chmod 755 /usr/sbin/buzz
+Sep  7 19:22:58 kali sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Sep  7 19:22:58 kali sudo: pam_unix(sudo:session): session closed for user root
+Sep  7 19:25:01 kali CRON[1906]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep  7 19:25:01 kali CRON[1906]: pam_unix(cron:session): session closed for user root
+May 20 22:06:37 kali systemd-logind[532]: New seat seat0.
+May 20 22:06:37 kali systemd-logind[532]: Watching system buttons on /dev/input/event1 (Power Button)
+May 20 22:06:37 kali systemd-logind[532]: Watching system buttons on /dev/input/event2 (Sleep Button)
+May 20 22:06:37 kali systemd-logind[532]: Watching system buttons on /dev/input/event0 (AT Translated Set 2 keyboard)
+May 20 22:06:38 kali gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user Debian-gdm by (uid=0)
+May 20 22:06:38 kali systemd-logind[532]: New session c1 of user Debian-gdm.
+May 20 22:06:38 kali systemd: pam_unix(systemd-user:session): session opened for user Debian-gdm by (uid=0)
+May 20 22:06:40 kali polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.67 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+May 20 22:06:40 kali realmd[820]: Loaded settings from: /usr/lib/realmd/realmd-defaults.conf /usr/lib/realmd/realmd-distro.conf
+May 20 22:06:40 kali realmd[820]: holding daemon: startup
+May 20 22:06:40 kali realmd[820]: starting service
+May 20 22:06:40 kali realmd[820]: connected to bus
+May 20 22:06:40 kali realmd[820]: GLib-GIO: _g_io_module_get_default: Found default implementation local (GLocalVfs) for ‘gio-vfs’
+May 20 22:06:40 kali realmd[820]: released daemon: startup
+May 20 22:06:40 kali realmd[820]: claimed name on bus: org.freedesktop.realmd
+May 20 22:06:54 kali gdm-password]: pam_unix(gdm-password:auth): Couldn't open /etc/securetty: No such file or directory
+May 20 22:06:58 kali gdm-password]: pam_unix(gdm-password:auth): Couldn't open /etc/securetty: No such file or directory
+May 20 22:06:58 kali gdm-password]: pam_unix(gdm-password:session): session opened for user root by (uid=0)
+May 20 22:06:58 kali systemd-logind[532]: New session 2 of user root.
+May 20 22:06:58 kali systemd: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+May 20 22:07:00 kali polkitd(authority=local): Registered Authentication Agent for unix-session:2 (system bus name :1.207 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+May 20 22:07:38 kali systemd-logind[532]: System is powering down.
+Jul 12 19:30:04 kali systemd-logind[537]: New seat seat0.
+Jul 12 19:30:04 kali systemd-logind[537]: Watching system buttons on /dev/input/event1 (Power Button)
+Jul 12 19:30:04 kali systemd-logind[537]: Watching system buttons on /dev/input/event2 (Sleep Button)
+Jul 12 19:30:04 kali systemd-logind[537]: Watching system buttons on /dev/input/event0 (AT Translated Set 2 keyboard)
+Jul 12 19:30:04 kali gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user Debian-gdm by (uid=0)
+Jul 12 19:30:04 kali systemd-logind[537]: New session c1 of user Debian-gdm.
+Jul 12 19:30:04 kali systemd: pam_unix(systemd-user:session): session opened for user Debian-gdm by (uid=0)
+Jul 12 19:30:07 kali polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.68 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Jul 12 19:30:08 kali realmd[891]: Loaded settings from: /usr/lib/realmd/realmd-defaults.conf /usr/lib/realmd/realmd-distro.conf
+Jul 12 19:30:08 kali realmd[891]: holding daemon: startup
+Jul 12 19:30:08 kali realmd[891]: starting service
+Jul 12 19:30:08 kali realmd[891]: connected to bus
+Jul 12 19:30:08 kali realmd[891]: GLib-GIO: _g_io_module_get_default: Found default implementation local (GLocalVfs) for ‘gio-vfs’
+Jul 12 19:30:08 kali realmd[891]: released daemon: startup
+Jul 12 19:30:08 kali realmd[891]: claimed name on bus: org.freedesktop.realmd
+Jul 12 19:31:09 kali realmd[891]: quitting realmd service after timeout
+Jul 12 19:31:09 kali realmd[891]: stopping service
+Jul 12 19:39:36 kali systemd-logind[537]: New seat seat0.
+Jul 12 19:39:36 kali systemd-logind[537]: Watching system buttons on /dev/input/event1 (Power Button)
+Jul 12 19:39:36 kali systemd-logind[537]: Watching system buttons on /dev/input/event2 (Sleep Button)
+Jul 12 19:39:36 kali systemd-logind[537]: Watching system buttons on /dev/input/event0 (AT Translated Set 2 keyboard)
+Jul 12 19:39:37 kali gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user Debian-gdm by (uid=0)
+Jul 12 19:39:37 kali systemd-logind[537]: New session c1 of user Debian-gdm.
+Jul 12 19:39:37 kali systemd: pam_unix(systemd-user:session): session opened for user Debian-gdm by (uid=0)
+Jul 12 19:39:39 kali polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.67 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Jul 12 19:39:39 kali realmd[871]: Loaded settings from: /usr/lib/realmd/realmd-defaults.conf /usr/lib/realmd/realmd-distro.conf
+Jul 12 19:39:39 kali realmd[871]: holding daemon: startup
+Jul 12 19:39:39 kali realmd[871]: starting service
+Jul 12 19:39:39 kali realmd[871]: connected to bus
+Jul 12 19:39:39 kali realmd[871]: GLib-GIO: _g_io_module_get_default: Found default implementation local (GLocalVfs) for ‘gio-vfs’
+Jul 12 19:39:39 kali realmd[871]: released daemon: startup
+Jul 12 19:39:39 kali realmd[871]: claimed name on bus: org.freedesktop.realmd
+Jul 12 19:40:10 kali gdm-password]: pam_unix(gdm-password:auth): Couldn't open /etc/securetty: No such file or directory
+Jul 12 19:40:12 kali gdm-password]: pam_unix(gdm-password:auth): Couldn't open /etc/securetty: No such file or directory
+Jul 12 19:40:12 kali gdm-password]: pam_unix(gdm-password:session): session opened for user root by (uid=0)
+Jul 12 19:40:12 kali systemd-logind[537]: New session 2 of user root.
+Jul 12 19:40:12 kali systemd: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Jul 12 19:40:14 kali polkitd(authority=local): Registered Authentication Agent for unix-session:2 (system bus name :1.191 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Jul 12 19:40:40 kali realmd[871]: quitting realmd service after timeout
+Jul 12 19:40:40 kali realmd[871]: stopping service
+Jul 12 19:45:01 kali CRON[1398]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 12 19:45:01 kali CRON[1398]: pam_unix(cron:session): session closed for user root
+Jul 12 19:55:01 kali CRON[1408]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 12 19:55:01 kali CRON[1408]: pam_unix(cron:session): session closed for user root
+Jul 12 20:05:01 kali CRON[1488]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 12 20:05:01 kali CRON[1488]: pam_unix(cron:session): session closed for user root
+Jul 12 20:09:01 kali CRON[1492]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 12 20:09:01 kali CRON[1492]: pam_unix(cron:session): session closed for user root
+Jul 12 23:01:47 kali gdm-password]: pam_unix(gdm-password:auth): Couldn't open /etc/securetty: No such file or directory
+Jul 12 23:01:48 kali gdm-password]: pam_unix(gdm-password:auth): Couldn't open /etc/securetty: No such file or directory
+Jul 12 23:01:52 kali gdm-password]: pam_unix(gdm-password:auth): Couldn't open /etc/securetty: No such file or directory
+Jul 12 23:01:52 kali gdm-password]: gkr-pam: unlocked login keyring
+Jul 12 23:05:01 kali CRON[1762]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 12 23:05:01 kali CRON[1762]: pam_unix(cron:session): session closed for user root
+Jul 12 23:09:01 kali CRON[1771]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 12 23:09:01 kali CRON[1771]: pam_unix(cron:session): session closed for user root
+Jul 12 23:15:01 kali CRON[1776]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 12 23:15:01 kali CRON[1776]: pam_unix(cron:session): session closed for user root
+Jul 12 23:17:01 kali CRON[1780]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 12 23:17:01 kali CRON[1780]: pam_unix(cron:session): session closed for user root
+Jul 12 23:25:01 kali CRON[1785]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 12 23:25:01 kali CRON[1785]: pam_unix(cron:session): session closed for user root
+Jul 12 23:35:01 kali CRON[1791]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 12 23:35:01 kali CRON[1791]: pam_unix(cron:session): session closed for user root
+Jul 12 23:39:01 kali CRON[1795]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 12 23:39:01 kali CRON[1795]: pam_unix(cron:session): session closed for user root
+Jul 12 23:45:01 kali CRON[1799]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 12 23:45:01 kali CRON[1799]: pam_unix(cron:session): session closed for user root
+Jul 12 23:55:01 kali CRON[1805]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 12 23:55:01 kali CRON[1805]: pam_unix(cron:session): session closed for user root
+Jul 12 23:59:01 kali CRON[1809]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 12 23:59:01 kali CRON[1809]: pam_unix(cron:session): session closed for user root
+Jul 13 22:20:47 kali systemd-logind[541]: New seat seat0.
+Jul 13 22:20:47 kali systemd-logind[541]: Watching system buttons on /dev/input/event1 (Power Button)
+Jul 13 22:20:47 kali systemd-logind[541]: Watching system buttons on /dev/input/event3 (Sleep Button)
+Jul 13 22:20:47 kali systemd-logind[541]: Watching system buttons on /dev/input/event0 (AT Translated Set 2 keyboard)
+Jul 13 22:20:47 kali gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user Debian-gdm by (uid=0)
+Jul 13 22:20:47 kali systemd-logind[541]: New session c1 of user Debian-gdm.
+Jul 13 22:20:47 kali systemd: pam_unix(systemd-user:session): session opened for user Debian-gdm by (uid=0)
+Jul 13 22:20:51 kali polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.67 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Jul 13 22:20:52 kali realmd[891]: Loaded settings from: /usr/lib/realmd/realmd-defaults.conf /usr/lib/realmd/realmd-distro.conf
+Jul 13 22:20:52 kali realmd[891]: holding daemon: startup
+Jul 13 22:20:52 kali realmd[891]: starting service
+Jul 13 22:20:52 kali realmd[891]: connected to bus
+Jul 13 22:20:52 kali realmd[891]: GLib-GIO: _g_io_module_get_default: Found default implementation local (GLocalVfs) for ‘gio-vfs’
+Jul 13 22:20:52 kali realmd[891]: released daemon: startup
+Jul 13 22:20:52 kali realmd[891]: claimed name on bus: org.freedesktop.realmd
+Jul 13 22:21:12 kali gdm-password]: pam_unix(gdm-password:auth): Couldn't open /etc/securetty: No such file or directory
+Jul 13 22:21:15 kali gdm-password]: pam_unix(gdm-password:auth): check pass; user unknown
+Jul 13 22:21:15 kali gdm-password]: pam_unix(gdm-password:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/tty1 ruser= rhost= 
+Jul 13 22:21:19 kali gdm-password]: pam_unix(gdm-password:auth): Couldn't open /etc/securetty: No such file or directory
+Jul 13 22:21:33 kali gdm-password]: pam_unix(gdm-password:auth): check pass; user unknown
+Jul 13 22:21:33 kali gdm-password]: pam_unix(gdm-password:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/tty1 ruser= rhost= 
+Jul 13 22:21:37 kali gdm-password]: pam_unix(gdm-password:auth): Couldn't open /etc/securetty: No such file or directory
+Jul 13 22:21:41 kali gdm-password]: pam_unix(gdm-password:auth): check pass; user unknown
+Jul 13 22:21:41 kali gdm-password]: pam_unix(gdm-password:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/tty1 ruser= rhost= 
+Jul 13 22:21:50 kali gdm-password]: pam_unix(gdm-password:auth): Couldn't open /etc/securetty: No such file or directory
+Jul 13 22:21:52 kali realmd[891]: quitting realmd service after timeout
+Jul 13 22:21:52 kali realmd[891]: stopping service
+Jul 13 22:21:55 kali gdm-password]: pam_unix(gdm-password:auth): check pass; user unknown
+Jul 13 22:21:55 kali gdm-password]: pam_unix(gdm-password:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/tty1 ruser= rhost= 
+Jul 13 22:21:58 kali gdm-password]: pam_unix(gdm-password:auth): Couldn't open /etc/securetty: No such file or directory
+Jul 13 22:21:58 kali gdm-password]: pam_unix(gdm-password:auth): check pass; user unknown
+Jul 13 22:21:58 kali gdm-password]: pam_unix(gdm-password:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/tty1 ruser= rhost= 
+Jul 13 22:22:06 kali gdm-password]: pam_unix(gdm-password:auth): Couldn't open /etc/securetty: No such file or directory
+Jul 13 22:22:07 kali gdm-password]: pam_unix(gdm-password:auth): Couldn't open /etc/securetty: No such file or directory
+Jul 13 22:22:07 kali gdm-password]: pam_unix(gdm-password:session): session opened for user root by (uid=0)
+Jul 13 22:22:07 kali systemd-logind[541]: New session 2 of user root.
+Jul 13 22:22:07 kali systemd: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Jul 13 22:22:09 kali polkitd(authority=local): Registered Authentication Agent for unix-session:2 (system bus name :1.217 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Jul 13 22:25:01 kali CRON[1495]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 22:25:01 kali CRON[1495]: pam_unix(cron:session): session closed for user root
+Jul 13 22:35:01 kali CRON[1512]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 22:35:01 kali CRON[1512]: pam_unix(cron:session): session closed for user root
+Jul 13 22:39:01 kali CRON[1521]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 22:39:01 kali CRON[1521]: pam_unix(cron:session): session closed for user root
+Jul 13 22:45:01 kali CRON[1526]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 22:45:01 kali CRON[1526]: pam_unix(cron:session): session closed for user root
+Jul 13 22:47:41 kali gdm-password]: pam_unix(gdm-password:auth): Couldn't open /etc/securetty: No such file or directory
+Jul 13 22:47:43 kali gdm-password]: pam_unix(gdm-password:auth): Couldn't open /etc/securetty: No such file or directory
+Jul 13 22:47:43 kali gdm-password]: gkr-pam: unlocked login keyring
+Jul 13 22:55:01 kali CRON[1665]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 22:55:01 kali CRON[1665]: pam_unix(cron:session): session closed for user root
+Jul 13 23:05:01 kali CRON[1918]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 23:05:01 kali CRON[1918]: pam_unix(cron:session): session closed for user root
+Jul 13 23:09:01 kali CRON[1923]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 23:09:01 kali CRON[1923]: pam_unix(cron:session): session closed for user root
+Jul 13 23:15:01 kali CRON[1927]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 23:15:01 kali CRON[1927]: pam_unix(cron:session): session closed for user root
+Jul 13 23:17:01 kali CRON[1930]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jul 13 23:17:01 kali CRON[1930]: pam_unix(cron:session): session closed for user root
+Jul 13 23:23:29 kali gdm-password]: pam_unix(gdm-password:auth): Couldn't open /etc/securetty: No such file or directory
+Jul 13 23:23:31 kali gdm-password]: pam_unix(gdm-password:auth): Couldn't open /etc/securetty: No such file or directory
+Jul 13 23:23:31 kali gdm-password]: gkr-pam: unlocked login keyring
+Jul 13 23:23:55 kali systemd-logind[541]: Power key pressed.
+Jul 13 23:23:55 kali systemd-logind[541]: System is powering down.
+Jan  9 10:51:58 kali systemd-logind[534]: New seat seat0.
+Jan  9 10:51:58 kali systemd-logind[534]: Watching system buttons on /dev/input/event1 (Power Button)
+Jan  9 10:51:58 kali systemd-logind[534]: Watching system buttons on /dev/input/event3 (Sleep Button)
+Jan  9 10:51:58 kali systemd-logind[534]: Watching system buttons on /dev/input/event0 (AT Translated Set 2 keyboard)
+Jan  9 10:51:59 kali gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user Debian-gdm by (uid=0)
+Jan  9 10:51:59 kali systemd-logind[534]: New session c1 of user Debian-gdm.
+Jan  9 10:51:59 kali systemd: pam_unix(systemd-user:session): session opened for user Debian-gdm by (uid=0)
+Jan  9 10:52:03 kali polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.68 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Jan  9 10:52:03 kali realmd[899]: Loaded settings from: /usr/lib/realmd/realmd-defaults.conf /usr/lib/realmd/realmd-distro.conf
+Jan  9 10:52:03 kali realmd[899]: holding daemon: startup
+Jan  9 10:52:03 kali realmd[899]: starting service
+Jan  9 10:52:03 kali realmd[899]: connected to bus
+Jan  9 10:52:03 kali realmd[899]: GLib-GIO: _g_io_module_get_default: Found default implementation local (GLocalVfs) for ‘gio-vfs’
+Jan  9 10:52:03 kali realmd[899]: released daemon: startup
+Jan  9 10:52:03 kali realmd[899]: claimed name on bus: org.freedesktop.realmd
+Jan  9 10:52:15 kali gdm-password]: pam_unix(gdm-password:auth): Couldn't open /etc/securetty: No such file or directory
+Jan  9 10:52:17 kali gdm-password]: pam_unix(gdm-password:auth): Couldn't open /etc/securetty: No such file or directory
+Jan  9 10:52:17 kali gdm-password]: pam_unix(gdm-password:session): session opened for user root by (uid=0)
+Jan  9 10:52:17 kali systemd-logind[534]: New session 2 of user root.
+Jan  9 10:52:17 kali systemd: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Jan  9 10:52:19 kali polkitd(authority=local): Registered Authentication Agent for unix-session:2 (system bus name :1.191 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Jan  9 10:53:04 kali realmd[899]: quitting realmd service after timeout
+Jan  9 10:53:04 kali realmd[899]: stopping service
+Jan  9 10:55:01 kali CRON[1476]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  9 10:55:01 kali CRON[1476]: pam_unix(cron:session): session closed for user root
+Jan  9 11:05:01 kali CRON[1794]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  9 11:05:01 kali CRON[1794]: pam_unix(cron:session): session closed for user root
+Jan  9 11:05:38 kali useradd[1816]: new group: name=haxurmom, GID=1019
+Jan  9 11:05:38 kali useradd[1816]: new user: name=haxurmom, UID=1019, GID=1019, home=/home/haxurmom, shell=/bin/sh
+Jan  9 11:06:26 kali passwd[1832]: pam_unix(passwd:chauthtok): password changed for haxurmom
+Jan  9 11:06:26 kali passwd[1832]: gkr-pam: couldn't update the login keyring password: no old password was entered
+Jan  9 11:09:01 kali CRON[1888]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  9 11:09:01 kali CRON[1888]: pam_unix(cron:session): session closed for user root
+Jan  9 11:09:13 kali su: (to haxurmom) root on pts/0
+Jan  9 11:09:13 kali su: pam_unix(su:session): session opened for user haxurmom by (uid=0)
+Jan  9 11:10:29 kali su: pam_unix(su:session): session closed for user haxurmom
+Jan  9 11:10:38 kali su: (to haxurmom) root on pts/0
+Jan  9 11:10:38 kali su: pam_unix(su:session): session opened for user haxurmom by (uid=0)
+Jan  9 11:10:45 kali su: pam_unix(su:session): session closed for user haxurmom
+Jan  9 11:11:05 kali passwd[2061]: pam_unix(passwd:chauthtok): password changed for haxurmom
+Jan  9 11:11:05 kali passwd[2061]: gkr-pam: couldn't update the login keyring password: no old password was entered
+Jan  9 11:11:12 kali su: (to haxurmom) root on pts/0
+Jan  9 11:11:12 kali su: pam_unix(su:session): session opened for user haxurmom by (uid=0)
+Jan  9 11:11:26 kali su: pam_unix(su:session): session closed for user haxurmom
+Jan  9 11:12:10 kali passwd[2153]: pam_unix(passwd:chauthtok): password changed for haxurmom
+Jan  9 11:12:10 kali passwd[2153]: gkr-pam: couldn't update the login keyring password: no old password was entered
+Jan  9 11:15:01 kali CRON[2253]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  9 11:15:01 kali CRON[2253]: pam_unix(cron:session): session closed for user root
+Jan  9 11:15:47 kali passwd[2256]: pam_unix(passwd:chauthtok): password changed for haxurmom
+Jan  9 11:15:47 kali passwd[2256]: gkr-pam: couldn't update the login keyring password: no old password was entered
+Jan  9 11:17:01 kali CRON[2264]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  9 11:17:01 kali CRON[2264]: pam_unix(cron:session): session closed for user root
+Jan  9 11:18:47 kali su: (to haxurmom) root on pts/0
+Jan  9 11:18:47 kali su: pam_unix(su-l:session): session opened for user haxurmom by (uid=0)
+Jan  9 11:19:06 kali su: pam_unix(su-l:session): session closed for user haxurmom
+Jan  9 11:21:35 kali useradd[2371]: failed adding user 'haxurmom', data deleted
+Jan  9 11:22:15 kali userdel[2381]: delete user 'haxurmom'
+Jan  9 11:22:15 kali userdel[2381]: removed group 'haxurmom' owned by 'haxurmom'
+Jan  9 11:22:15 kali userdel[2381]: removed shadow group 'haxurmom' owned by 'haxurmom'
+Jan  9 11:22:20 kali useradd[2388]: new group: name=haxurmom, GID=1019
+Jan  9 11:22:20 kali useradd[2388]: new user: name=haxurmom, UID=1019, GID=1019, home=/home/haxurmom, shell=/bin/sh
+Jan  9 11:24:14 kali su: (to haxurmom) root on pts/0
+Jan  9 11:24:14 kali su: pam_unix(su:session): session opened for user haxurmom by (uid=0)
+Jan  9 11:24:17 kali su: pam_unix(su:session): session closed for user haxurmom
+Jan  9 11:24:33 kali passwd[2418]: pam_unix(passwd:chauthtok): password changed for haxurmom
+Jan  9 11:24:33 kali passwd[2418]: gkr-pam: couldn't update the login keyring password: no old password was entered
+Jan  9 11:24:39 kali su: (to haxurmom) root on pts/0
+Jan  9 11:24:39 kali su: pam_unix(su:session): session opened for user haxurmom by (uid=0)
+Jan  9 11:25:01 kali CRON[2424]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  9 11:25:01 kali CRON[2424]: pam_unix(cron:session): session closed for user root
+Jan  9 11:25:08 kali sudo: pam_unix(sudo:auth): Couldn't open /etc/securetty: No such file or directory
+Jan  9 11:25:29 kali sudo: pam_unix(sudo:auth): Couldn't open /etc/securetty: No such file or directory
+Jan  9 11:25:29 kali sudo: haxurmom : user NOT in sudoers ; TTY=pts/0 ; PWD=/home ; USER=root ; COMMAND=/usr/bin/passwd root
+Jan  9 11:26:23 kali su: pam_unix(su:session): session closed for user haxurmom
+Jan  9 11:28:43 kali usermod[2551]: add 'haxurmom' to group 'sudo'
+Jan  9 11:28:43 kali usermod[2551]: add 'haxurmom' to shadow group 'sudo'
+Jan  9 11:29:08 kali su: (to haxurmom) root on pts/0
+Jan  9 11:29:08 kali su: pam_unix(su:session): session opened for user haxurmom by (uid=0)
+Jan  9 11:29:15 kali sudo: pam_unix(sudo:auth): Couldn't open /etc/securetty: No such file or directory
+Jan  9 11:29:23 kali sudo: pam_unix(sudo:auth): Couldn't open /etc/securetty: No such file or directory
+Jan  9 11:29:23 kali sudo: haxurmom : TTY=pts/0 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/passwd root
+Jan  9 11:29:23 kali sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Jan  9 11:29:36 kali passwd[2563]: pam_unix(passwd:chauthtok): password changed for root
+Jan  9 11:29:36 kali passwd[2563]: gkr-pam: couldn't update the login keyring password: no old password was entered
+Jan  9 11:29:36 kali sudo: pam_unix(sudo:session): session closed for user root
+Jan  9 11:29:40 kali su: pam_unix(su:session): session closed for user haxurmom
+Jan  9 11:30:39 kali systemd-logind[536]: New seat seat0.
+Jan  9 11:30:39 kali systemd-logind[536]: Watching system buttons on /dev/input/event1 (Power Button)
+Jan  9 11:30:39 kali systemd-logind[536]: Watching system buttons on /dev/input/event2 (Sleep Button)
+Jan  9 11:30:39 kali systemd-logind[536]: Watching system buttons on /dev/input/event0 (AT Translated Set 2 keyboard)
+Jan  9 11:30:39 kali gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user Debian-gdm by (uid=0)
+Jan  9 11:30:39 kali systemd-logind[536]: New session c1 of user Debian-gdm.
+Jan  9 11:30:39 kali systemd: pam_unix(systemd-user:session): session opened for user Debian-gdm by (uid=0)
+Jan  9 11:30:42 kali polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.67 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Jan  9 11:30:43 kali realmd[891]: Loaded settings from: /usr/lib/realmd/realmd-defaults.conf /usr/lib/realmd/realmd-distro.conf
+Jan  9 11:30:43 kali realmd[891]: holding daemon: startup
+Jan  9 11:30:43 kali realmd[891]: starting service
+Jan  9 11:30:43 kali realmd[891]: connected to bus
+Jan  9 11:30:43 kali realmd[891]: GLib-GIO: _g_io_module_get_default: Found default implementation local (GLocalVfs) for ‘gio-vfs’
+Jan  9 11:30:43 kali realmd[891]: released daemon: startup
+Jan  9 11:30:43 kali realmd[891]: claimed name on bus: org.freedesktop.realmd
+Jan  9 11:30:51 kali gdm-password]: pam_unix(gdm-password:auth): Couldn't open /etc/securetty: No such file or directory
+Jan  9 11:30:52 kali gdm-password]: pam_unix(gdm-password:auth): Couldn't open /etc/securetty: No such file or directory
+Jan  9 11:30:52 kali gdm-password]: pam_unix(gdm-password:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/tty1 ruser= rhost=  user=root
+Jan  9 11:30:57 kali gdm-password]: pam_unix(gdm-password:auth): Couldn't open /etc/securetty: No such file or directory
+Jan  9 11:31:02 kali gdm-password]: pam_unix(gdm-password:auth): Couldn't open /etc/securetty: No such file or directory
+Jan  9 11:31:02 kali gdm-password]: pam_unix(gdm-password:session): session opened for user root by (uid=0)
+Jan  9 11:31:02 kali systemd-logind[536]: New session 2 of user root.
+Jan  9 11:31:02 kali systemd: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Jan  9 11:31:03 kali gnome-keyring-daemon[921]: failed to unlock login keyring on startup
+Jan  9 11:31:04 kali polkitd(authority=local): Registered Authentication Agent for unix-session:2 (system bus name :1.191 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Jan  9 11:31:44 kali realmd[891]: quitting realmd service after timeout
+Jan  9 11:31:44 kali realmd[891]: stopping service
+Jan  9 11:35:01 kali CRON[1405]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  9 11:35:01 kali CRON[1405]: pam_unix(cron:session): session closed for user root
+Jan  9 11:39:01 kali CRON[1505]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  9 11:39:01 kali CRON[1505]: pam_unix(cron:session): session closed for user root
+Jan  9 11:42:03 kali su: (to haxurmom) root on pts/0
+Jan  9 11:42:03 kali su: pam_unix(su:session): session opened for user haxurmom by (uid=0)
+Jan  9 11:42:14 kali su: pam_unix(su:session): session closed for user haxurmom
+Jan  9 11:45:01 kali CRON[1828]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  9 11:45:01 kali CRON[1828]: pam_unix(cron:session): session closed for user root
+Jan  9 11:55:01 kali CRON[1982]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  9 11:55:01 kali CRON[1982]: pam_unix(cron:session): session closed for user root
+Jan  9 12:02:04 kali gdm-password]: pam_unix(gdm-password:auth): Couldn't open /etc/securetty: No such file or directory
+Jan  9 12:02:09 kali gdm-password]: pam_unix(gdm-password:auth): Couldn't open /etc/securetty: No such file or directory
+Jan  9 12:02:09 kali gdm-password]: gkr-pam: the password for the login keyring was invalid.
+Jan  9 12:05:21 kali systemd-logind[539]: New seat seat0.
+Jan  9 12:05:21 kali systemd-logind[539]: Watching system buttons on /dev/input/event1 (Power Button)
+Jan  9 12:05:21 kali systemd-logind[539]: Watching system buttons on /dev/input/event2 (Sleep Button)
+Jan  9 12:05:21 kali systemd-logind[539]: Watching system buttons on /dev/input/event0 (AT Translated Set 2 keyboard)
+Jan  9 12:05:21 kali gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user Debian-gdm by (uid=0)
+Jan  9 12:05:21 kali systemd-logind[539]: New session c1 of user Debian-gdm.
+Jan  9 12:05:21 kali systemd: pam_unix(systemd-user:session): session opened for user Debian-gdm by (uid=0)
+Jan  9 12:05:24 kali polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.67 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Jan  9 12:05:25 kali realmd[886]: Loaded settings from: /usr/lib/realmd/realmd-defaults.conf /usr/lib/realmd/realmd-distro.conf
+Jan  9 12:05:25 kali realmd[886]: holding daemon: startup
+Jan  9 12:05:25 kali realmd[886]: starting service
+Jan  9 12:05:25 kali realmd[886]: connected to bus
+Jan  9 12:05:25 kali realmd[886]: GLib-GIO: _g_io_module_get_default: Found default implementation local (GLocalVfs) for ‘gio-vfs’
+Jan  9 12:05:25 kali realmd[886]: released daemon: startup
+Jan  9 12:05:25 kali realmd[886]: claimed name on bus: org.freedesktop.realmd
+Jan  9 12:05:31 kali gdm-password]: pam_unix(gdm-password:auth): Couldn't open /etc/securetty: No such file or directory
+Jan  9 12:05:32 kali gdm-password]: pam_unix(gdm-password:auth): Couldn't open /etc/securetty: No such file or directory
+Jan  9 12:05:32 kali gdm-password]: pam_unix(gdm-password:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/tty1 ruser= rhost=  user=root
+Jan  9 12:05:36 kali gdm-password]: pam_unix(gdm-password:auth): Couldn't open /etc/securetty: No such file or directory
+Jan  9 12:05:39 kali gdm-password]: pam_unix(gdm-password:auth): Couldn't open /etc/securetty: No such file or directory
+Jan  9 12:05:39 kali gdm-password]: pam_unix(gdm-password:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/tty1 ruser= rhost=  user=root
+Jan  9 12:05:42 kali gdm-password]: pam_unix(gdm-password:auth): Couldn't open /etc/securetty: No such file or directory
+Jan  9 12:05:45 kali gdm-password]: pam_unix(gdm-password:auth): Couldn't open /etc/securetty: No such file or directory
+Jan  9 12:05:45 kali gdm-password]: pam_unix(gdm-password:session): session opened for user root by (uid=0)
+Jan  9 12:05:45 kali systemd-logind[539]: New session 2 of user root.
+Jan  9 12:05:45 kali systemd: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Jan  9 12:05:46 kali gnome-keyring-daemon[921]: failed to unlock login keyring on startup
+Jan  9 12:05:47 kali polkitd(authority=local): Registered Authentication Agent for unix-session:2 (system bus name :1.192 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Jan  9 12:06:25 kali realmd[886]: quitting realmd service after timeout
+Jan  9 12:06:25 kali realmd[886]: stopping service
+Jan  9 12:09:01 kali CRON[1505]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  9 12:09:01 kali CRON[1505]: pam_unix(cron:session): session closed for user root
+Jan  9 12:15:01 kali CRON[1509]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  9 12:15:01 kali CRON[1509]: pam_unix(cron:session): session closed for user root
+Jan  9 12:17:01 kali CRON[1743]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  9 12:17:01 kali CRON[1743]: pam_unix(cron:session): session closed for user root
+Jan  9 12:25:01 kali CRON[1808]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  9 12:25:01 kali CRON[1808]: pam_unix(cron:session): session closed for user root
+Jan  9 12:26:40 kali useradd[1812]: new group: name=haxurdad, GID=1020
+Jan  9 12:26:40 kali useradd[1812]: new user: name=haxurdad, UID=1020, GID=1020, home=/home/haxurdad, shell=/bin/sh
+Jan  9 12:26:59 kali passwd[1822]: pam_unix(passwd:chauthtok): password changed for haxurdad
+Jan  9 12:26:59 kali passwd[1822]: gkr-pam: couldn't update the login keyring password: no old password was entered
+Jan  9 12:27:53 kali su: (to haxurdad) root on pts/0
+Jan  9 12:27:53 kali su: pam_unix(su:session): session opened for user haxurdad by (uid=0)
+Jan  9 12:28:03 kali sudo: pam_unix(sudo:auth): Couldn't open /etc/securetty: No such file or directory
+Jan  9 12:28:10 kali sudo: pam_unix(sudo:auth): Couldn't open /etc/securetty: No such file or directory
+Jan  9 12:28:10 kali sudo: pam_unix(sudo:auth): authentication failure; logname= uid=1020 euid=0 tty=/dev/pts/0 ruser=haxurdad rhost=  user=haxurdad
+Jan  9 12:28:12 kali sudo: pam_unix(sudo:auth): Couldn't open /etc/securetty: No such file or directory
+Jan  9 12:28:16 kali sudo: pam_unix(sudo:auth): Couldn't open /etc/securetty: No such file or directory
+Jan  9 12:28:18 kali sudo: pam_unix(sudo:auth): Couldn't open /etc/securetty: No such file or directory
+Jan  9 12:28:27 kali sudo: pam_unix(sudo:auth): Couldn't open /etc/securetty: No such file or directory
+Jan  9 12:28:27 kali sudo: haxurdad : user NOT in sudoers ; TTY=pts/0 ; PWD=/var/log ; USER=root ; COMMAND=/usr/bin/cat /etc/shadow
+Jan  9 12:28:33 kali su: pam_unix(su:session): session closed for user haxurdad
+Jan  9 12:35:01 kali CRON[1915]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  9 12:35:01 kali CRON[1915]: pam_unix(cron:session): session closed for user root
+Jan  9 12:39:01 kali CRON[1978]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  9 12:39:01 kali CRON[1978]: pam_unix(cron:session): session closed for user root
+Jan  9 12:45:01 kali CRON[2025]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  9 12:45:01 kali CRON[2025]: pam_unix(cron:session): session closed for user root
+Jan  9 12:45:58 kali gdm-password]: pam_unix(gdm-password:auth): Couldn't open /etc/securetty: No such file or directory
+Jan  9 12:46:07 kali gdm-password]: pam_unix(gdm-password:auth): Couldn't open /etc/securetty: No such file or directory
+Jan  9 12:46:07 kali gdm-password]: gkr-pam: the password for the login keyring was invalid.
+Jan  9 12:55:01 kali CRON[2141]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  9 12:55:01 kali CRON[2141]: pam_unix(cron:session): session closed for user root
+Jan  9 13:06:04 kali systemd-logind[539]: New seat seat0.
+Jan  9 13:06:04 kali systemd-logind[539]: Watching system buttons on /dev/input/event1 (Power Button)
+Jan  9 13:06:04 kali systemd-logind[539]: Watching system buttons on /dev/input/event2 (Sleep Button)
+Jan  9 13:06:04 kali systemd-logind[539]: Watching system buttons on /dev/input/event0 (AT Translated Set 2 keyboard)
+Jan  9 13:06:05 kali gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user Debian-gdm by (uid=0)
+Jan  9 13:06:05 kali systemd-logind[539]: New session c1 of user Debian-gdm.
+Jan  9 13:06:05 kali systemd: pam_unix(systemd-user:session): session opened for user Debian-gdm by (uid=0)
+Jan  9 13:06:08 kali polkitd(authority=local): Registered Authentication Agent for unix-session:c1 (system bus name :1.67 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Jan  9 13:06:09 kali realmd[995]: Loaded settings from: /usr/lib/realmd/realmd-defaults.conf /usr/lib/realmd/realmd-distro.conf
+Jan  9 13:06:09 kali realmd[995]: holding daemon: startup
+Jan  9 13:06:09 kali realmd[995]: starting service
+Jan  9 13:06:09 kali realmd[995]: connected to bus
+Jan  9 13:06:09 kali realmd[995]: GLib-GIO: _g_io_module_get_default: Found default implementation local (GLocalVfs) for ‘gio-vfs’
+Jan  9 13:06:09 kali realmd[995]: released daemon: startup
+Jan  9 13:06:09 kali realmd[995]: claimed name on bus: org.freedesktop.realmd
+Jan  9 13:06:17 kali gdm-password]: pam_unix(gdm-password:auth): Couldn't open /etc/securetty: No such file or directory
+Jan  9 13:06:24 kali gdm-password]: pam_unix(gdm-password:auth): Couldn't open /etc/securetty: No such file or directory
+Jan  9 13:06:24 kali gdm-password]: pam_unix(gdm-password:session): session opened for user root by (uid=0)
+Jan  9 13:06:24 kali systemd-logind[539]: New session 2 of user root.
+Jan  9 13:06:24 kali systemd: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Jan  9 13:06:26 kali gnome-keyring-daemon[1022]: failed to unlock login keyring on startup
+Jan  9 13:06:28 kali polkitd(authority=local): Registered Authentication Agent for unix-session:2 (system bus name :1.207 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Jan  9 13:07:10 kali realmd[995]: quitting realmd service after timeout
+Jan  9 13:07:10 kali realmd[995]: stopping service
+Jan  9 13:09:01 kali CRON[1564]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  9 13:09:01 kali CRON[1564]: pam_unix(cron:session): session closed for user root
+Jan  9 13:11:50 kali sshd[1572]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.56.106  user=haxurmom
+Jan  9 13:11:51 kali sshd[1572]: Failed password for haxurmom from 192.168.56.106 port 46198 ssh2
+Jan  9 13:11:58 kali sshd[1572]: Failed password for haxurmom from 192.168.56.106 port 46198 ssh2
+Jan  9 13:12:00 kali sshd[1572]: Accepted password for haxurmom from 192.168.56.106 port 46198 ssh2
+Jan  9 13:12:00 kali sshd[1572]: pam_unix(sshd:session): session opened for user haxurmom by (uid=0)
+Jan  9 13:12:01 kali systemd-logind[539]: New session 5 of user haxurmom.
+Jan  9 13:12:01 kali systemd: pam_unix(systemd-user:session): session opened for user haxurmom by (uid=0)
+Jan  9 13:12:01 kali dbus-daemon[537]: [system] Rejected send message, 2 matched rules; type="method_call", sender=":1.271" (uid=1019 pid=1588 comm="/usr/bin/pulseaudio --daemonize=no ") interface="org.freedesktop.DBus.ObjectManager" member="GetManagedObjects" error name="(unset)" requested_reply="0" destination="org.bluez" (bus)
+Jan  9 13:12:50 kali sshd[1594]: Received disconnect from 192.168.56.106 port 46198:11: disconnected by user
+Jan  9 13:12:50 kali sshd[1594]: Disconnected from user haxurmom 192.168.56.106 port 46198
+Jan  9 13:12:50 kali sshd[1572]: pam_unix(sshd:session): session closed for user haxurmom
+Jan  9 13:12:50 kali systemd-logind[539]: Session 5 logged out. Waiting for processes to exit.
+Jan  9 13:12:50 kali systemd-logind[539]: Removed session 5.
+Jan  9 13:15:01 kali CRON[1681]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  9 13:15:01 kali CRON[1681]: pam_unix(cron:session): session closed for user root
+Jan  9 13:17:02 kali CRON[1695]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  9 13:17:02 kali CRON[1695]: pam_unix(cron:session): session closed for user root
+Jan  9 13:25:01 kali CRON[1709]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  9 13:25:01 kali CRON[1709]: pam_unix(cron:session): session closed for user root
+Jan  9 13:35:01 kali CRON[1725]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  9 13:35:01 kali CRON[1725]: pam_unix(cron:session): session closed for user root
+Jan  9 13:39:01 kali CRON[1737]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  9 13:39:01 kali CRON[1737]: pam_unix(cron:session): session closed for user root
+Jan  9 13:41:52 kali gdm-password]: pam_unix(gdm-password:auth): Couldn't open /etc/securetty: No such file or directory
+Jan  9 13:41:55 kali gdm-password]: pam_unix(gdm-password:auth): Couldn't open /etc/securetty: No such file or directory
+Jan  9 13:41:55 kali gdm-password]: gkr-pam: the password for the login keyring was invalid.
+Jan  9 13:45:01 kali CRON[2107]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  9 13:45:01 kali CRON[2107]: pam_unix(cron:session): session closed for user root
+Jan  9 13:55:01 kali CRON[2241]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan  9 13:55:01 kali CRON[2241]: pam_unix(cron:session): session closed for user root
+Jan  9 14:01:14 kali gdm-password]: pam_unix(gdm-password:auth): Couldn't open /etc/securetty: No such file or directory
+Jan  9 14:01:19 kali gdm-password]: pam_unix(gdm-password:auth): Couldn't open /etc/securetty: No such file or directory
+Jan  9 14:01:19 kali gdm-password]: gkr-pam: the password for the login keyring was invalid.
