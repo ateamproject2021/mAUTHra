@@ -1340,3 +1340,186 @@ Jan  9 13:55:01 kali CRON[2241]: pam_unix(cron:session): session closed for user
 Jan  9 14:01:14 kali gdm-password]: pam_unix(gdm-password:auth): Couldn't open /etc/securetty: No such file or directory
 Jan  9 14:01:19 kali gdm-password]: pam_unix(gdm-password:auth): Couldn't open /etc/securetty: No such file or directory
 Jan  9 14:01:19 kali gdm-password]: gkr-pam: the password for the login keyring was invalid.
+
+2020-11-06 21:36:46 startup archives install
+2020-11-06 21:36:47 install nessus:amd64 <none> 8.12.1
+2020-11-06 21:36:47 status half-installed nessus:amd64 8.12.1
+2020-11-06 21:36:49 status unpacked nessus:amd64 8.12.1
+2020-11-06 21:36:49 configure nessus:amd64 8.12.1 8.12.1
+2020-11-06 21:36:49 status half-configured nessus:amd64 8.12.1
+2020-11-06 21:36:54 status installed nessus:amd64 8.12.1
+2020-11-11 21:54:58 startup archives unpack
+2020-11-11 21:55:00 install libdumbnet1:amd64 <none> 1.12-9
+2020-11-11 21:55:00 status triggers-pending libc-bin:amd64 2.30-8
+2020-11-11 21:55:00 status half-installed libdumbnet1:amd64 1.12-9
+2020-11-11 21:55:00 status triggers-pending man-db:amd64 2.9.3-2
+2020-11-11 21:55:00 status unpacked libdumbnet1:amd64 1.12-9
+2020-11-11 21:55:00 install libdaq2:amd64 <none> 2.0.7-5
+2020-11-11 21:55:00 status half-installed libdaq2:amd64 2.0.7-5
+2020-11-11 21:55:00 status unpacked libdaq2:amd64 2.0.7-5
+2020-11-11 21:55:00 install snort-common-libraries:amd64 <none> 2.9.7.0-5
+2020-11-11 21:55:00 status half-installed snort-common-libraries:amd64 2.9.7.0-5
+2020-11-11 21:55:01 status unpacked snort-common-libraries:amd64 2.9.7.0-5
+2020-11-11 21:55:01 install snort-rules-default:all <none> 2.9.7.0-5
+2020-11-11 21:55:01 status half-installed snort-rules-default:all 2.9.7.0-5
+2020-11-11 21:55:01 status unpacked snort-rules-default:all 2.9.7.0-5
+2020-11-11 21:55:01 install snort-common:all <none> 2.9.7.0-5
+2020-11-11 21:55:01 status half-installed snort-common:all 2.9.7.0-5
+2020-11-11 21:55:01 status triggers-pending kali-menu:all 2020.3.2
+2020-11-11 21:55:02 status unpacked snort-common:all 2.9.7.0-5
+2020-11-11 21:55:02 install snort:amd64 <none> 2.9.7.0-5
+2020-11-11 21:55:02 status half-installed snort:amd64 2.9.7.0-5
+2020-11-11 21:55:03 status triggers-pending systemd:amd64 245.6-2
+2020-11-11 21:55:04 status unpacked snort:amd64 2.9.7.0-5
+2020-11-11 21:55:04 install oinkmaster:all <none> 2.0-4
+2020-11-11 21:55:04 status half-installed oinkmaster:all 2.0-4
+2020-11-11 21:55:04 status unpacked oinkmaster:all 2.0-4
+2020-11-11 21:55:04 startup packages configure
+2020-11-11 21:55:04 configure oinkmaster:all 2.0-4 <none>
+2020-11-11 21:55:04 status unpacked oinkmaster:all 2.0-4
+2020-11-11 21:55:04 status half-configured oinkmaster:all 2.0-4
+2020-11-11 21:55:04 status installed oinkmaster:all 2.0-4
+2020-11-11 21:55:04 configure snort-common:all 2.9.7.0-5 <none>
+2020-11-11 21:55:04 status unpacked snort-common:all 2.9.7.0-5
+2020-11-11 21:55:04 status half-configured snort-common:all 2.9.7.0-5
+2020-11-11 21:55:05 status installed snort-common:all 2.9.7.0-5
+2020-11-11 21:55:05 configure libdumbnet1:amd64 1.12-9 <none>
+2020-11-11 21:55:05 status unpacked libdumbnet1:amd64 1.12-9
+2020-11-11 21:55:05 status half-configured libdumbnet1:amd64 1.12-9
+2020-11-11 21:55:05 status installed libdumbnet1:amd64 1.12-9
+2020-11-11 21:55:05 configure snort-rules-default:all 2.9.7.0-5 <none>
+2020-11-11 21:55:05 status unpacked snort-rules-default:all 2.9.7.0-5
+2020-11-11 21:55:06 status half-configured snort-rules-default:all 2.9.7.0-5
+2020-11-11 21:55:06 status installed snort-rules-default:all 2.9.7.0-5
+2020-11-11 21:55:06 configure libdaq2:amd64 2.0.7-5 <none>
+2020-11-11 21:55:06 status unpacked libdaq2:amd64 2.0.7-5
+2020-11-11 21:55:06 status half-configured libdaq2:amd64 2.0.7-5
+2020-11-11 21:55:06 status installed libdaq2:amd64 2.0.7-5
+2020-11-11 21:55:06 configure snort-common-libraries:amd64 2.9.7.0-5 <none>
+2020-11-11 21:55:06 status unpacked snort-common-libraries:amd64 2.9.7.0-5
+2020-11-11 21:55:06 status half-configured snort-common-libraries:amd64 2.9.7.0-5
+2020-11-11 21:55:06 status installed snort-common-libraries:amd64 2.9.7.0-5
+2020-11-11 21:55:06 configure snort:amd64 2.9.7.0-5 <none>
+2020-11-11 21:55:06 status unpacked snort:amd64 2.9.7.0-5
+2020-11-11 21:55:06 status half-configured snort:amd64 2.9.7.0-5
+2020-11-11 21:55:07 status installed snort:amd64 2.9.7.0-5
+2020-11-11 21:55:07 trigproc systemd:amd64 245.6-2 <none>
+2020-11-11 21:55:07 status half-configured systemd:amd64 245.6-2
+2020-11-11 21:55:07 status installed systemd:amd64 245.6-2
+2020-11-11 21:55:07 trigproc man-db:amd64 2.9.3-2 <none>
+2020-11-11 21:55:07 status half-configured man-db:amd64 2.9.3-2
+2020-11-11 21:55:08 status installed man-db:amd64 2.9.3-2
+2020-11-11 21:55:08 trigproc kali-menu:all 2020.3.2 <none>
+2020-11-11 21:55:08 status half-configured kali-menu:all 2020.3.2
+2020-11-11 21:55:09 status installed kali-menu:all 2020.3.2
+2020-11-11 21:55:09 trigproc libc-bin:amd64 2.30-8 <none>
+2020-11-11 21:55:09 status half-configured libc-bin:amd64 2.30-8
+2020-11-11 21:55:09 status installed libc-bin:amd64 2.30-8
+2020-11-11 22:05:08 startup archives unpack
+2020-11-11 22:05:09 install ufw:all <none> 0.36-7
+2020-11-11 22:05:09 status half-installed ufw:all 0.36-7
+2020-11-11 22:05:09 status triggers-pending systemd:amd64 245.6-2
+2020-11-11 22:05:09 status triggers-pending rsyslog:amd64 8.2006.0-2
+2020-11-11 22:05:09 status triggers-pending kali-menu:all 2020.3.2
+2020-11-11 22:05:09 status triggers-pending man-db:amd64 2.9.3-2
+2020-11-11 22:05:09 status unpacked ufw:all 0.36-7
+2020-11-11 22:05:09 startup packages configure
+2020-11-11 22:05:09 configure ufw:all 0.36-7 <none>
+2020-11-11 22:05:09 status unpacked ufw:all 0.36-7
+2020-11-11 22:05:09 status half-configured ufw:all 0.36-7
+2020-11-11 22:05:13 status installed ufw:all 0.36-7
+2020-11-11 22:05:13 trigproc man-db:amd64 2.9.3-2 <none>
+2020-11-11 22:05:13 status half-configured man-db:amd64 2.9.3-2
+2020-11-11 22:05:13 status installed man-db:amd64 2.9.3-2
+2020-11-11 22:05:13 trigproc kali-menu:all 2020.3.2 <none>
+2020-11-11 22:05:13 status half-configured kali-menu:all 2020.3.2
+2020-11-11 22:05:14 status installed kali-menu:all 2020.3.2
+2020-11-11 22:05:14 trigproc rsyslog:amd64 8.2006.0-2 <none>
+2020-11-11 22:05:14 status half-configured rsyslog:amd64 8.2006.0-2
+2020-11-11 22:05:15 status installed rsyslog:amd64 8.2006.0-2
+2020-11-11 22:05:15 trigproc systemd:amd64 245.6-2 <none>
+2020-11-11 22:05:15 status half-configured systemd:amd64 245.6-2
+2020-11-11 22:05:15 status installed systemd:amd64 245.6-2
+2020-11-20 14:40:08 startup archives unpack
+2020-11-20 14:40:09 upgrade libasound2:amd64 1.2.2-2.3 1.2.3.2-1
+2020-11-20 14:40:09 status triggers-pending libc-bin:amd64 2.30-8
+2020-11-20 14:40:09 status half-configured libasound2:amd64 1.2.2-2.3
+2020-11-20 14:40:09 status unpacked libasound2:amd64 1.2.2-2.3
+2020-11-20 14:40:09 status half-installed libasound2:amd64 1.2.2-2.3
+2020-11-20 14:40:09 status unpacked libasound2:amd64 1.2.3.2-1
+2020-11-20 14:40:09 upgrade libasound2-data:all 1.2.2-2.3 1.2.3.2-1
+2020-11-20 14:40:09 status half-configured libasound2-data:all 1.2.2-2.3
+2020-11-20 14:40:09 status unpacked libasound2-data:all 1.2.2-2.3
+2020-11-20 14:40:09 status half-installed libasound2-data:all 1.2.2-2.3
+2020-11-20 14:40:09 status unpacked libasound2-data:all 1.2.3.2-1
+2020-11-20 14:40:09 install libatopology2:amd64 <none> 1.2.3.2-1
+2020-11-20 14:40:09 status half-installed libatopology2:amd64 1.2.3.2-1
+2020-11-20 14:40:09 status unpacked libatopology2:amd64 1.2.3.2-1
+2020-11-20 14:40:09 install libfftw3-single3:amd64 <none> 3.3.8-2
+2020-11-20 14:40:09 status half-installed libfftw3-single3:amd64 3.3.8-2
+2020-11-20 14:40:09 status unpacked libfftw3-single3:amd64 3.3.8-2
+2020-11-20 14:40:09 install alsa-utils:amd64 <none> 1.2.3-1
+2020-11-20 14:40:09 status half-installed alsa-utils:amd64 1.2.3-1
+2020-11-20 14:40:09 status triggers-pending systemd:amd64 245.6-2
+2020-11-20 14:40:09 status triggers-pending kali-menu:all 2020.3.2
+2020-11-20 14:40:09 status triggers-pending man-db:amd64 2.9.3-2
+2020-11-20 14:40:09 status unpacked alsa-utils:amd64 1.2.3-1
+2020-11-20 14:40:10 startup packages configure
+2020-11-20 14:40:10 configure libfftw3-single3:amd64 3.3.8-2 <none>
+2020-11-20 14:40:10 status unpacked libfftw3-single3:amd64 3.3.8-2
+2020-11-20 14:40:10 status half-configured libfftw3-single3:amd64 3.3.8-2
+2020-11-20 14:40:10 status installed libfftw3-single3:amd64 3.3.8-2
+2020-11-20 14:40:10 configure libasound2-data:all 1.2.3.2-1 <none>
+2020-11-20 14:40:10 status unpacked libasound2-data:all 1.2.3.2-1
+2020-11-20 14:40:10 status half-configured libasound2-data:all 1.2.3.2-1
+2020-11-20 14:40:10 status installed libasound2-data:all 1.2.3.2-1
+2020-11-20 14:40:10 configure libasound2:amd64 1.2.3.2-1 <none>
+2020-11-20 14:40:10 status unpacked libasound2:amd64 1.2.3.2-1
+2020-11-20 14:40:10 status half-configured libasound2:amd64 1.2.3.2-1
+2020-11-20 14:40:10 status installed libasound2:amd64 1.2.3.2-1
+2020-11-20 14:40:10 configure libatopology2:amd64 1.2.3.2-1 <none>
+2020-11-20 14:40:10 status unpacked libatopology2:amd64 1.2.3.2-1
+2020-11-20 14:40:10 status half-configured libatopology2:amd64 1.2.3.2-1
+2020-11-20 14:40:10 status installed libatopology2:amd64 1.2.3.2-1
+2020-11-20 14:40:10 configure alsa-utils:amd64 1.2.3-1 <none>
+2020-11-20 14:40:10 status unpacked alsa-utils:amd64 1.2.3-1
+2020-11-20 14:40:10 status half-configured alsa-utils:amd64 1.2.3-1
+2020-11-20 14:40:10 status installed alsa-utils:amd64 1.2.3-1
+2020-11-20 14:40:10 trigproc libc-bin:amd64 2.30-8 <none>
+2020-11-20 14:40:10 status half-configured libc-bin:amd64 2.30-8
+2020-11-20 14:40:10 status installed libc-bin:amd64 2.30-8
+2020-11-20 14:40:10 trigproc systemd:amd64 245.6-2 <none>
+2020-11-20 14:40:10 status half-configured systemd:amd64 245.6-2
+2020-11-20 14:40:11 status installed systemd:amd64 245.6-2
+2020-11-20 14:40:11 trigproc man-db:amd64 2.9.3-2 <none>
+2020-11-20 14:40:11 status half-configured man-db:amd64 2.9.3-2
+2020-11-20 14:40:12 status installed man-db:amd64 2.9.3-2
+2020-11-20 14:40:12 trigproc kali-menu:all 2020.3.2 <none>
+2020-11-20 14:40:12 status half-configured kali-menu:all 2020.3.2
+2020-11-20 14:40:12 status installed kali-menu:all 2020.3.2
+2020-11-20 14:41:15 startup archives unpack
+2020-11-20 14:41:16 install alsa-oss:amd64 <none> 1.1.8-1
+2020-11-20 14:41:16 status triggers-pending libc-bin:amd64 2.30-8
+2020-11-20 14:41:16 status half-installed alsa-oss:amd64 1.1.8-1
+2020-11-20 14:41:16 status triggers-pending kali-menu:all 2020.3.2
+2020-11-20 14:41:16 status triggers-pending man-db:amd64 2.9.3-2
+2020-11-20 14:41:16 status unpacked alsa-oss:amd64 1.1.8-1
+2020-11-20 14:41:16 startup packages configure
+2020-11-20 14:41:16 configure alsa-oss:amd64 1.1.8-1 <none>
+2020-11-20 14:41:16 status unpacked alsa-oss:amd64 1.1.8-1
+2020-11-20 14:41:16 status half-configured alsa-oss:amd64 1.1.8-1
+2020-11-20 14:41:16 status installed alsa-oss:amd64 1.1.8-1
+2020-11-20 14:41:16 trigproc libc-bin:amd64 2.30-8 <none>
+2020-11-20 14:41:16 status half-configured libc-bin:amd64 2.30-8
+2020-11-20 14:41:16 status installed libc-bin:amd64 2.30-8
+2020-11-20 14:41:16 trigproc man-db:amd64 2.9.3-2 <none>
+2020-11-20 14:41:16 status half-configured man-db:amd64 2.9.3-2
+2020-11-20 14:41:16 status installed man-db:amd64 2.9.3-2
+2020-11-20 14:41:16 trigproc kali-menu:all 2020.3.2 <none>
+2020-11-20 14:41:16 status half-configured kali-menu:all 2020.3.2
+2020-11-20 14:41:17 status installed kali-menu:all 2020.3.2
+2020-11-23 18:53:36 startup archives install
+2020-11-23 18:54:20 startup archives install
+2020-11-23 18:54:31 startup archives install
+2020-11-23 18:54:35 startup archives install
+
