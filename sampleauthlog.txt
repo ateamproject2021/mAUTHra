@@ -1518,8 +1518,4 @@ Jan  9 14:01:19 kali gdm-password]: gkr-pam: the password for the login keyring 
 2020-11-20 14:41:16 trigproc kali-menu:all 2020.3.2 <none>
 2020-11-20 14:41:16 status half-configured kali-menu:all 2020.3.2
 2020-11-20 14:41:17 status installed kali-menu:all 2020.3.2
-2020-11-23 18:53:36 startup archives install
-2020-11-23 18:54:20 startup archives install
-2020-11-23 18:54:31 startup archives install
-2020-11-23 18:54:35 startup archives install
 
