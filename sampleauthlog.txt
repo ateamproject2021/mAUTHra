@@ -1149,8 +1149,6 @@ Jan  9 11:21:35 kali useradd[2371]: failed adding user 'haxurmom', data deleted
 Jan  9 11:22:15 kali userdel[2381]: delete user 'haxurmom'
 Jan  9 11:22:15 kali userdel[2381]: removed group 'haxurmom' owned by 'haxurmom'
 Jan  9 11:22:15 kali userdel[2381]: removed shadow group 'haxurmom' owned by 'haxurmom'
-Jan  9 11:22:20 kali useradd[2388]: new group: name=haxurmom, GID=1019
-Jan  9 11:22:20 kali useradd[2388]: new user: name=haxurmom, UID=1019, GID=1019, home=/home/haxurmom, shell=/bin/sh
 Jan  9 11:24:14 kali su: (to haxurmom) root on pts/0
 Jan  9 11:24:14 kali su: pam_unix(su:session): session opened for user haxurmom by (uid=0)
 Jan  9 11:24:17 kali su: pam_unix(su:session): session closed for user haxurmom
