@@ -12,11 +12,6 @@ import tester_case1
 
 def main():
 
-
-#allows for a file's contents to be used as input to our function
-    with open(sys.argv[1], 'r') as f:
-        contents = f.readlines()
-
 #STILL NEED functionality to use dedicated file paths in Linux systems
 
 #ascii art
@@ -50,7 +45,6 @@ def main():
 
 #error message for unapproved user selections
 #must also be modified with each new test case to allow for proper 
-
 
 #this is where we call the test case import functions
 #make sure to indent once
