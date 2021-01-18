@@ -11,7 +11,7 @@ def main():
     #the "meat" of the test case module
     for line in contents:
     #insert specific test case criteria here
-        if "new group: " in line:
+        if "new group: " in line or "new user: " in line or "delete user" in line:
             result += line + "\n"
     print(result)
 
