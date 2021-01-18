@@ -59,10 +59,10 @@ if user_input == "3":
 if user_input == "3":
     print(result_chmod)
 
-#print("Log entries pertaining to new users:\n"
- #       + result_new_group
-  #      + "Log entries pertaining to failed passwords:\n"
-   #     + result_incorrect_password
-    #    + "Log entries pertaining to change of file permissions:\n"
-     #   + result_chmod)
+print("Log entries pertaining to new users:\n"
+        + result_new_group
+        + "Log entries pertaining to failed passwords:\n"
+        + result_incorrect_password
+        + "Log entries pertaining to change of file permissions:\n"
+        + result_chmod)
 	
