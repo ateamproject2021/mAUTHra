@@ -13,7 +13,9 @@ def main():
     #insert specific test case criteria here
         if "authentication failure" in line:
             result += line + "\n"
-    print(result)
+    if len(result) < 5:
+        print("No applicable log entries found.")
+    else: print(result)
 
 #no touchy
 if __name__ == "__main__":
