@@ -11,7 +11,7 @@ def main():
     #the "meat" of the test case module
     for line in contents:
     #insert specific test case criteria here
-        if "kali sshd" or "kali systemd" in line:
+        if "sshd:auth" in line or "ssh2" in line:
             result += line + "\n"
     print(result)
 
