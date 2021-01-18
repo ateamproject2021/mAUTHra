@@ -16,7 +16,9 @@ def main():
                 new_line = line.replace("+r", "user added readability to this file >>>")
                 result += new_line
             else: result += line
-    print(result)
+    if len(result) < 5:
+        print("No applicable log entries found.")
+    else: print(result)
 
 #no touchy
 if __name__ == "__main__":
