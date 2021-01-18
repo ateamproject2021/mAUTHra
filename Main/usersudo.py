@@ -11,7 +11,7 @@ def main():
     #the "meat" of the test case module
     for line in contents:
     #insert specific test case criteria here
-        if "kali usermod" or  "kali sudo" or "su: session" in line:
+        if "kali usermod" in line or  "kali sudo" in line or "su: session" in line:
             result += line + "\n"
     print(result)
 
