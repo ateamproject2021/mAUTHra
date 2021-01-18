@@ -13,7 +13,9 @@ def main():
     #insert specific test case criteria here
         if "kali usermod" in line or  "kali sudo" in line or "su: session" in line:
             result += line + "\n"
-    print(result)
+    if len(result) < 5:
+        print("No applicable log entries found.")
+    else: print(result)
 
 #no touchy
 if __name__ == "__main__":
