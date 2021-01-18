@@ -19,7 +19,6 @@ def main():
     with open(sys.argv[1], 'r') as f:
         contents = f.readlines()
 
-#STILL NEED functionality to use dedicated file paths in Linux systems
 #STILL NEED error message "incorrect input try again" and then a new input func
 
 #ascii art
