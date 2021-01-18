@@ -11,9 +11,7 @@ import sys
 import tester_case1
 
 def main():
-
-#STILL NEED functionality to use dedicated file paths in Linux systems
-
+    
 #ascii art
     print("""
                                _   _   _ _____ _   _ 
