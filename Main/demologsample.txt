@@ -1,0 +1,126 @@
+May 17 09:08:40 kali groupadd[4387]: new group: name=vboxsf, GID=144
+
+Sep  5 22:27:36 kali useradd[3492]: new user: name=_rpc, UID=134, GID=65534, home=/run/rpcbind, shell=/usr/sbin/nologin
+
+Sep  5 22:35:32 kali useradd[19673]: new user: name=statd, UID=135, GID=65534, home=/var/lib/nfs, shell=/usr/sbin/nologin
+
+Dec  8 11:05:38 kali useradd[1816]: new group: name=gojia, GID=1019
+
+Dec  8 11:05:38 kali useradd[1816]: new user: name=gojira, UID=1019, GID=1019, home=/home/gojira, shell=/bin/sh
+
+Dec  8 11:22:15 kali userdel[2381]: delete user 'gojira'
+
+Jan  9  12:26:40 kali useradd[1812]: new group: name=Cyan, GID=1020
+
+Jan  9 12:26:40 kali useradd[1812]: new user: name=Cyan, UID=1020, GID=1020, home=/home/Cyan, shell=/bin/sh
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Jun 30 05:27:43 kali gdm-password]: pam_unix(gdm-password:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/tty1 ruser= rhost= 
+
+Sep  5 21:07:32 kali gdm-password]: pam_unix(gdm-password:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/tty1 ruser= rhost=  user=root
+
+Jul 13 22:21:15 kali gdm-password]: pam_unix(gdm-password:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/tty1 ruser= rhost= 
+
+Jul 13 22:21:33 kali gdm-password]: pam_unix(gdm-password:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/tty1 ruser= rhost= 
+
+Jul 13 22:21:41 kali gdm-password]: pam_unix(gdm-password:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/tty1 ruser= rhost= 
+
+Jul 13 22:21:55 kali gdm-password]: pam_unix(gdm-password:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/tty1 ruser= rhost= 
+
+Jul 13 22:21:58 kali gdm-password]: pam_unix(gdm-password:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/tty1 ruser= rhost= 
+
+Dec  8 11:30:52 kali gdm-password]: pam_unix(gdm-password:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/tty1 ruser= rhost=  user=root
+
+Dec  8 12:05:32 kali gdm-password]: pam_unix(gdm-password:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/tty1 ruser= rhost=  user=root
+
+Dec  8 12:05:39 kali gdm-password]: pam_unix(gdm-password:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/tty1 ruser= rhost=  user=root
+
+Dec  8 12:28:10 kali sudo: pam_unix(sudo:auth): authentication failure; logname= uid=1020 euid=0 tty=/dev/pts/0 ruser=gojira rhost=  user=gojira
+
+Jan  9 13:11:50 kali sshd[1572]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.56.106  user=Cyan
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Sep  7 19:22:55 kali sudo:     root : TTY=pts/0 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/chmod 644 /usr/share/man/man1/man.1.gz
+
+Sep  7 19:22:55 kali sudo:     root : TTY=pts/0 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/chmod 644 /usr/share/man/man6/man.6.gz
+
+Sep  7 19:22:57 kali sudo:     root : TTY=pts/0 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/chmod 111 /usr/local/sbin/where-am-i
+
+Sep  7 19:22:57 kali sudo:     root : TTY=pts/0 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/chmod 111 /usr/local/bin/where-am-i
+
+Sep  7 19:22:57 kali sudo:     root : TTY=pts/0 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/chmod 444 /usr/local/sbin/secret.txt
+
+Sep  7 19:22:57 kali sudo:     root : TTY=pts/0 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/chmod 444 /usr/local/bin/secret.txt
+
+Sep  7 19:22:58 kali sudo:     root : TTY=pts/0 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/chmod 755 /usr/sbin/buzz
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Jan  9 13:11:50 kali sshd[1572]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.56.106  user=Cyan
+
+Jan  9 13:11:51 kali sshd[1572]: Failed password for Cyan from 192.168.56.106 port 46198 ssh2
+
+Jan  9 13:11:58 kali sshd[1572]: Failed password for Cyan from 192.168.56.106 port 46198 ssh2
+
+Jan  9 13:12:00 kali sshd[1572]: Accepted password for Cyan from 192.168.56.106 port 46198 ssh2
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+
+Dec  8 11:24:33 kali passwd[2418]: pam_unix(passwd:chauthtok): password changed for gojira
+
+Jan  9 11:29:36 kali passwd[2563]: pam_unix(passwd:chauthtok): password changed for root
+
+Jan  9 12:26:59 kali passwd[1822]: pam_unix(passwd:chauthtok): password changed for Cyan
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+2020-11-06 21:36:54 status installed nessus:amd64 8.12.1
+
+2020-11-11 21:55:04 status installed oinkmaster:all 2.0-4
+
+2020-11-11 21:55:05 status installed snort-common:all 2.9.7.0-5
+
+2020-11-11 21:55:05 status installed libdumbnet1:amd64 1.12-9
+
+2020-11-11 21:55:06 status installed snort-rules-default:all 2.9.7.0-5
+
+2020-11-11 21:55:06 status installed libdaq2:amd64 2.0.7-5
+
+2020-11-11 21:55:06 status installed snort-common-libraries:amd64 2.9.7.0-5
+
+2020-11-11 21:55:07 status installed snort:amd64 2.9.7.0-5
+
+2020-11-11 21:55:07 status installed systemd:amd64 245.6-2
+
+2020-11-11 21:55:08 status installed man-db:amd64 2.9.3-2
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Dec  8 11:25:29 kali sudo: gojira : user NOT in sudoers ; TTY=pts/0 ; PWD=/home ; USER=root ; COMMAND=/usr/bin/passwd root
+
+Dec  8 11:28:43 kali usermod[2551]: add 'gojira' to group 'sudo'
+
+Dec  8 11:28:43 kali usermod[2551]: add 'gojira' to shadow group 'sudo'
+
+Dec  8 11:29:23 kali sudo: gojira : TTY=pts/0 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/passwd root
+
+Dec  8 11:29:23 kali sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+
+Dec  8  11:29:36 kali sudo: pam_unix(sudo:session): session closed for user root
+
+Jan  9 12:28:10 kali sudo: pam_unix(sudo:auth): authentication failure; logname= uid=1020 euid=0 tty=/dev/pts/0 ruser=Cyan rhost=  user=Cyan
+
+Jan  9 12:28:27 kali sudo: Cyan : user NOT in sudoers ; TTY=pts/0 ; PWD=/var/log ; USER=root ; COMMAND=/usr/bin/cat /etc/shadow
