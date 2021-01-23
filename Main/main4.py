@@ -31,7 +31,7 @@ def main():
 #this print statement prompts the user to make a decision
 #
     print("\nEnter a search parameter. (1) User account creation/deletion, (2) Incorrect password attempts, (3) File permissions changes, (4) SSH activity, "
-    "(5) Password modification, (6) New program installs, (7) Sudo usage\nTo search a custom parameter enter 'custom':\nTo search all test cases enter \'all\'.")
+    "(5) Password modification, (6) New program installs, (7) Sudo usage\nTo search a custom parameter enter 'custom'\nTo search all test cases enter \'all\'.")
 
 #this variable stores the user's test case specifier selection
     user_input = input()
