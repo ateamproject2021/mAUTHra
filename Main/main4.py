@@ -80,11 +80,11 @@ def main(error):
         elif user_input == "2":
             incorrect_password.main()
         elif user_input == "3":
-            file_permissions.main()
-        elif user_input == "4":
-            ssh.main()
-        elif user_input == "5":
             password_change.main()
+        elif user_input == "4":
+            file_permissions.main()
+        elif user_input == "5":
+            ssh.main()
         elif user_input == "6":
             newly_installed_programs.main()
         elif user_input == "7":
