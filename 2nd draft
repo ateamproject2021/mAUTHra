@@ -20,4 +20,33 @@ Thanks Joshua.
 (boots mAUTHra)
 Nick boots up mAUTHra and is prompted with a selection screen. Good thing he can let the computer do the heavy lifting! Nick needs reliable information and in a hurry! Luckily for Nick, he has mAUTHra! It downloads in seconds with a simple git clone command from his terminal, and all it takes is a file path input. BOOM! Nick has instantly parsed his authorization logs with the “All” command from mAUTHra. The data is now available for him to review and will give his team a head start in their investigation. Now Nick can sleep easy knowing he's impressed his boss and collegues.
 
-To conclude: mAUTHra has many capabilities that any user can utilize. We have designed it to be useful in small efforts like determining who in accounting keeps forgetting their passwords, all the way to parsing dpkg logs for newly installed programs with malicious payloads. Our idea was to build a tool that any analyst can have in their arsenal, and use efficiently. It takes a closer look at who has access, and who is trying to gain access to your network, and what they are trying to do. We hope that you have enjoyed our presentation and that you can see the same value in mAUTHra that we do. Thank you  
+To conclude: mAUTHra has many capabilities that any user can utilize. We have designed it to be useful in small efforts like determining who in accounting keeps forgetting their passwords, all the way to parsing dpkg logs for newly installed programs with malicious payloads. Our idea was to build a tool that any analyst can have in their arsenal, and use efficiently. It takes a closer look at who has access, and who is trying to gain access to your network, and what they are trying to do. We hope that you have enjoyed our presentation and that you can see the same value in mAUTHra that we do. Thank you 
+
+
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+Matthew:
+
+Hello, and welcome to our project presentation. At its core, mAUTHra is a program easily launched through a command line, designed to scrape Linux log files. I'd like to introduce the members of the team: I am Matthew Landry, we also have Stephen Koplik, Joshua Gregoire and Phillip Trimble. We’ve all worked together to create a project we truly hope you'll enjoy using.
+At its core, mAUTHra is a program that parses through log files for information relevant to a test case selected as input. If you’ve ever viewed Linux logs before, you know that they are full of useful information. However, the staggering number of logs that Linux creates can be overwhelming. We’ve decided to write a program that can aid in your search. To tell you a little more about how mAUTHra works, here's Stephen.
+
+Stephen: 
+
+Thanks Matthew. mAUTHra was built utilizing the power of Python! mAUTHra features a suite of preloaded parameters to run against a log file of your choosing. For example, say you wanted to check for instances of incorrect password input. We’ve written a module that reads your Linux auth log and then prints only the lines that are relevant to that query. This provides an accurate, condensed output in a fraction of a second.
+In addition to failed password attempts detection, you can also search for any creation or deletion of users, password changes, sudo usage, SSH logins, and even newly installed programs on the host machine. With the touch of a few keys, the user can get an in-depth sense of what's happening on their machine with minimal effort. Sticking with the theme of authorization, the built-in tools allow an administrator to uncover any malicious activity relating to user accounts. To further explain how mAUTHra can be optimized in a real world setting we have Joshua to assist us.
+Josh: 
+Thank you, Stephen! To better demonstrate how we can use mAUTHra in an everyday setting, lets go through a quick scenario. Our data analyst 'Nick', receives an internal complaint about odd activity from an unrecognized user, Cyan, on an internal host desktop. It’s Friday afternoon, and Nick is exhausted. He needs to quickly parse these logs for relevant information and pass this on to his incident response team.
+This obviously requires further investigation. So, Nick makes himself a cup of coffee and rolls up his sleeves. For a quick demonstration to see how Nick conquers this dilemma, we will have Phillip walk us through it.
+
+
+
+Phillip:
+Thanks Joshua.
+(photo of mAUTHra home screen in background)
+Nick boots up mAUTHra. By executing the program and providing it with an input auth log file, Nick now has the ability to instantly search for newly created users. The data is instantly available for him to review and will give his team a head start in their investigation. It looks like Nick can get some well-deserved rest this weekend after all.
+*Stephen and I are working on a search module this weekend to expand the scenario a bit, the script will be modified accordingly if it goes well*
+To conclude: mAUTHra has many capabilities that a user can utilize. We have designed it to be useful in a situation as small as determining who in accounting keeps forgetting their passwords, all the way to parsing dpkg logs for newly installed malicious programs. Our idea was to add a tool to the arsenal of users of any skill level, providing them the ability to parse logs quickly and efficiently. We hope that you have enjoyed our presentation and that you can see the same value in mAUTHra as we do. Thank you, and happy threat hunting!
+
