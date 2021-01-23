@@ -3,6 +3,7 @@
 #all empty comments denote a area which must be modifed in order to add new test case modules
 
 import sys
+#from colorama import Fore, Style
 
 #test case modules
 #
@@ -16,22 +17,27 @@ import ssh
 import sudo_usage
 import users
 
-def main():
+error = False
 
+def main(error):
+    
 #file input
     with open(sys.argv[1], 'r') as f:
         contents = f.readlines()
-
+        
+    if error == False:
 #ascii art
-    logo.main()
+        logo.main()
+    else: print("Incorrect input!!!")
 
 #success catcher list
     alls = ["all", "All", "ALL"]
+    custom_list = ["custom", "Custom", "CUSTOM"]
 
 #this print statement prompts the user to make a decision
 #
     print("\nEnter a search parameter. (1) User account creation/deletion, (2) Incorrect password attempts, (3) File permissions changes, (4) SSH activity, "
-    "(5) Password modification, (6) New program installs, (7) Sudo usage\nTo search a custom parameter enter 'custom'\nTo search all test cases enter \'all\'")
+    "(5) Password modification, (6) New program installs, (7) Sudo usage\nTo search for custom input enter 'custom'\nTo search all test cases enter \'all\'.")
 
 #this variable stores the user's test case specifier selection
     user_input = input()
@@ -54,16 +60,16 @@ def main():
             print("***The following log entries pertain to sudo usage***\n")
             sudo_usage.main()
             return None
-        
+            
     for elem in custom_list:
         if user_input == elem:
             return custom.main()
-
+        
     if user_input.isdigit() == False:
-        return main()
+        return main(True)
         #
-    elif int(user_input) not in range(8):
-        return main()
+    elif int(user_input) not in range(1, 8):
+        return main(True)
     else:
         #spacing purposes
         print("\n")
@@ -86,4 +92,4 @@ def main():
 
 #no touchy!
 if __name__ == "__main__":
-    main()
+    main(False)
