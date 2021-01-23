@@ -36,8 +36,8 @@ def main(error):
 
 #this print statement prompts the user to make a decision
 #
-    print("\nEnter a search parameter. (1) User account creation/deletion, (2) Incorrect password attempts, (3) File permissions changes, (4) SSH activity, "
-    "(5) Password modification, (6) New program installs, (7) Sudo usage\nTo search for custom input enter 'custom'\nTo search all test cases enter \'all\'.")
+    print("\nEnter a search parameter. (1) User account creation/deletion, (2) Incorrect password attempts, (3) Password Modifications (4) File permissions changes, (5) SSH activity, "
+    "(6) New program installs, (7) Sudo usage\nTo search for custom input enter 'custom'\nTo search all test cases enter \'all\'.")
 
 #this variable stores the user's test case specifier selection
     user_input = input()
@@ -45,16 +45,16 @@ def main(error):
     for elem in alls:
         if user_input == elem:
             #
-            print("\n***The following log entries pertain to the creation/deletion users***\n")
+            print("\n***The following log entries pertain to the creation/deletion of users***\n")
             users.main()
             print("***The following log entries pertain to incorrect password entries***\n")
             incorrect_password.main()
+            print("***The following log entries pertain to the modification of passwords***\n")
+            password_change.main()
             print("***The following log entries pertain to the modification of file permissions***\n")
             file_permissions.main()
             print("***The following log entries pertain to SSH activity***\n")
             ssh.main()
-            print("***The following log entries pertain to the modification of passwords***\n")
-            password_change.main()
             print("***The following log entries pertain to newly installed programs***\n")
             newly_installed_programs.main()
             print("***The following log entries pertain to sudo usage***\n")
