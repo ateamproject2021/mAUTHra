@@ -4,6 +4,7 @@ import sys
 def main():
     #collector result string
     result = ""
+    linecounter = 0
 
     #this code allows for file's contents to be used as input in our function
     with open(sys.argv[1], 'r') as f:
@@ -13,9 +14,10 @@ def main():
     #insert specific test case criteria here
         if "new user: " in line or "new group: " in line or "delete user" in line:
             result += line + "\n"
+            linecounter += 1
     if len(result) < 5:
         print("No applicable log entries found.")
-    else: print(result)
+    else: print((result) + "mAUTHra has found " + str(linecounter) + " relevant results.\n")
 
 #no touchy
 if __name__ == "__main__":
