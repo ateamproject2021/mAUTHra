@@ -8,7 +8,6 @@
 * [Setup](#setup)
 * [Features](#features)
 * [Status](#status)
-* [Inspiration](#inspiration)
 * [Contact](#contact)
 
 ## General info
@@ -30,7 +29,7 @@ To launch mAUTHra, simply run it like any executable in Linux and provide it a l
 `./mAUTHra_final.py (filepath to log file)`
 
 ## Features
-Current Parsing Features
+mAUTHra features a pre-written suite of functions used to parse for specific types of logs. By default, every command except for "New Program Installs" should be searching against your authorization logs (auth.log) found in `/var/log`. "New Program Installs" should be parsed from the Debian Package log (dpkg.log), also found in `/var/log`.
 * User account creation and deletion (includes groups)
 * Incorrect password attempts
 * Password modifications
