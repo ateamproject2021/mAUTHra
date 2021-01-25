@@ -13,7 +13,8 @@
 ## General info
 Welcome, and thank you for checking out project mAUTHra! This program was created as a group project by four cybersecurity students that wanted to practice their Python scripting skills. mAUTHra is a lightweight, easy to use program containing a suite of pre-built parameters designed to parse Linux authorization (and other) logs.
 ## Screenshots
-![User Interface](mAUTHragitscreen.png)
+![User Interface](mAUTHrasetup.png)
+* Simply follow these steps in your command line to download and set up mAUTHra.py
 
 ## Technologies
 * mAUTHra is executable through a bash terminal window and utilizes the Python3 language.
@@ -21,7 +22,7 @@ Welcome, and thank you for checking out project mAUTHra! This program was create
 ## Setup
 To set up mAUTHra, simply: 
 
-* Create a directory for mAUTHra and clone https://github.com/ateamproject2021/mAUTHra.git
+* Create a directory for mAUTHra and  git clone https://github.com/ateamproject2021/mAUTHra.git
 * Give mAUTHra.py executable priveleges: `chmod +x mAUTHra.py`
 
 ## Code Examples
