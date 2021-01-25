@@ -50,5 +50,5 @@ Project is: _in progress_. As a learning tool for it's developers, we hope to co
 ## Contact
 * Stephen Koplik
 * Joshua Gregoire (https://www.linkedin.com/in/joshualgregoire/)
-* Matthew Landry 
+* Matthew Landry (https://www.linkedin.com/in/matthewlandryml/)
 * Phillip Trimble
