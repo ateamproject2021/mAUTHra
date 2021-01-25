@@ -48,4 +48,7 @@ To-do list:
 Project is: _in progress_. As a learning tool for it's developers, we hope to continue to use mAUTHra as a way to improve our Python scripting abilities.
 
 ## Contact
-Created by Stephen Koplik, Joshua Gregoire, Matthew Landry and Phillip Trimble.
+* Stephen Koplik
+* Joshua Gregoire (https://www.linkedin.com/in/joshualgregoire/)
+* Matthew Landry 
+* Phillip Trimble
