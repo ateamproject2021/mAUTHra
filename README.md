@@ -21,8 +21,8 @@ Welcome, and thank you for checking out project mAUTHra! This program was create
 ## Setup
 To set up mAUTHra, simply: 
 
-* Create a directory for mAUTHra and clone the git repo at (https://github.com/ateamproject2021/mAUTHra/tree/main/Final)
-* Give mAUTHra_finaly.py executable priveleges: `chmod +x mAUTHra_final.py`
+* Create a directory for mAUTHra and clone the git repo at `https://github.com/ateamproject2021/mAUTHra/tree/main/Final`
+* Give mAUTHra_final.py executable priveleges: `chmod +x mAUTHra_final.py`
 
 ## Code Examples
 To launch mAUTHra, simply run it like any executable in Linux and provide it a local file or file path to parse:
