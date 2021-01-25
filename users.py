@@ -27,8 +27,7 @@ def main(error):
             if "new user: " in line or "new group: " in line or "delete user" in line:
                 name_beg = line.find("name")
                 name_end = line.find(",")
-                print(line[:16] + " " + line[name_beg: name_end])
-                result += line
+                result += (line[:16] + " " + line[name_beg: name_end] + "\n")
                 linecounter += 1
         if len(result) < 5:
             print("No applicable log entries found.")
