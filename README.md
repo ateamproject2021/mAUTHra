@@ -25,7 +25,7 @@ To set up mAUTHra, simply:
 * Give mAUTHra_final.py executable priveleges: `chmod +x mAUTHra_final.py`
 
 ## Code Examples
-To launch mAUTHra, simply run it like any executable in Linux and provide it a local file or file path to parse:
+To launch mAUTHra, simply execute the program and provide it a local file or file path to parse:
 `./mAUTHra_final.py (filepath to log file)`
 
 ## Features
