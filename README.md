@@ -16,12 +16,12 @@ Welcome, and thank you for checking out project mAUTHra! This program was create
 ![User Interface](mAUTHragitscreen.png)
 
 ## Technologies
-* mAUTHra utilizes the Python3 language.
+* mAUTHra is executable through a bash terminal window and utilizes the Python3 language.
 
 ## Setup
 To set up mAUTHra, simply: 
 
-* Create a directory for mAUTHra and clone the "Final" git repo at `https://github.com/ateamproject2021/mAUTHra/tree/main/Final`
+* Create a directory for mAUTHra and clone https://github.com/ateamproject2021/mAUTHra.git
 * Give mAUTHra_final.py executable priveleges: `chmod +x mAUTHra_final.py`
 
 ## Code Examples
@@ -43,12 +43,13 @@ mAUTHra features a pre-written suite of functions used to parse for specific typ
 To-do list:
 * Future code optimization/cleanup
 * Improve utility with extra search parameters
+* Simplify 'all' output
 
 ## Status
 Project is: _in progress_. As a learning tool for it's developers, we hope to continue to use mAUTHra as a way to improve our Python scripting abilities.
 
 ## Contact
-* Stephen Koplik
+* Stephen Koplik  (https://www.linkedin.com/in/stephen-koplik/)
 * Joshua Gregoire (https://www.linkedin.com/in/joshualgregoire/)
 * Matthew Landry (https://www.linkedin.com/in/matthewlandryml/)
 * Phillip Trimble
