@@ -2,6 +2,7 @@ from colorama import Fore
 def main():
   print(Fore.MAGENTA + """
                 Thank you for using mAUTHra, the quicker log parser\n
+                For more information about mAUTHra, consult README.md\n
                                _   _   _ _____ _   _ 
                   _ __ ___    / \ | | | |_   _| | | |_ __ __ _
                  | '_ ` _ \  / _ \| | | | | | | |_| | '__/ _` |
