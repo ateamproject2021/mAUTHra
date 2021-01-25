@@ -22,11 +22,11 @@ Welcome, and thank you for checking out project mAUTHra! This program was create
 To set up mAUTHra, simply: 
 
 * Create a directory for mAUTHra and clone https://github.com/ateamproject2021/mAUTHra.git
-* Give mAUTHra_final.py executable priveleges: `chmod +x mAUTHra_final.py`
+* Give mAUTHra.py executable priveleges: `chmod +x mAUTHra.py`
 
 ## Code Examples
 To launch mAUTHra, simply execute the program and provide it a local file or file path to parse:
-`./mAUTHra_final.py (filepath to log file)`
+`./mAUTHra.py (filepath to log file)`
 
 ## Features
 mAUTHra features a pre-written suite of functions used to parse for specific types of logs. By default, every command except for "New Program Installs" should be searching against your authorization logs (auth.log) found in `/var/log`. "New Program Installs" should be parsed from the Debian Package log (dpkg.log), also found in `/var/log`.
