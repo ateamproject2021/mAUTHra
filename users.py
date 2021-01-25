@@ -25,9 +25,7 @@ def main(error):
         for line in contents:
     #insert specific test case criteria here
             if "new user: " in line or "new group: " in line or "delete user" in line:
-                name_beg = line.find("name")
-                name_end = line.find(",")
-                result += (line[:16] + " " + line[name_beg: name_end] + "\n")
+                result += line
                 linecounter += 1
         if len(result) < 5:
             print("No applicable log entries found.")
@@ -36,9 +34,7 @@ def main(error):
         for line in contents:
     #insert specific test case criteria here
             if "new user: " in line or "new group: " in line or "delete user" in line:
-                name_beg = line.find("name")
-                name_end = line.find(",")
-                result += (line[:16] + " " + line[name_beg: name_end] + "\n")
+                result += line
                 linecounter += 1
         if len(result) < 5:
             print("No applicable log entries found.")
@@ -53,9 +49,7 @@ def main(error):
     elif int(user_input) == 3:
         for line in contents:
             if "new user: " in line or "new group: " in line or "delete user" in line:
-                name_beg = line.find("name")
-                name_end = line.find(",")
-                result += (line[:16] + " " + line[name_beg: name_end] + "\n")
+                result += line
                 linecounter += 1
         if len(result) < 5:
             print("No applicable log entries found.")
@@ -72,3 +66,4 @@ def main(error):
 #no touchy
 if __name__ == "__main__":
     main(False)
+
