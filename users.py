@@ -24,7 +24,7 @@ def main(error):
     if int(user_input) == 1:
         for line in contents:
     #insert specific test case criteria here
-            if "new user: " in line or "new group: " in line or "delete user" in line:
+            if "new user" in line or "new group" in line or "delete user" in line:
                 result += line
                 linecounter += 1
         if len(result) < 5:
